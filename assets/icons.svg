@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+<defs></defs>
+
+<!-- Brand mark: eclipse -->
+<symbol id="i-mark" viewBox="0 0 32 32">
+  <circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="1.4"/>
+  <path d="M16 5a11 11 0 0 0 0 22 8 8 0 0 1 0-22z" fill="currentColor" opacity="0.9"/>
+</symbol>
+
+<!-- Trifox / FoxGrid : triangular fox -->
+<symbol id="i-trifox" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M8 12 L20 26 L8 30 Z"/>
+    <path d="M40 12 L28 26 L40 30 Z"/>
+    <path d="M20 26 L24 38 L28 26 Z"/>
+    <path d="M20 26 L28 26"/>
+    <circle cx="18.5" cy="22" r="0.9" fill="currentColor"/>
+    <circle cx="29.5" cy="22" r="0.9" fill="currentColor"/>
+  </g>
+</symbol>
+
+<!-- Avirlog : decision triangle structure -->
+<symbol id="i-avirlog" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M24 8 L40 36 L8 36 Z"/>
+    <path d="M24 8 L24 26"/>
+    <path d="M24 26 L16 36"/>
+    <path d="M24 26 L32 36"/>
+    <circle cx="24" cy="8" r="2.2" fill="none"/>
+    <circle cx="16" cy="36" r="2.2" fill="none"/>
+    <circle cx="32" cy="36" r="2.2" fill="none"/>
+  </g>
+</symbol>
+
+<!-- Breath Tracker : breath circle + waveform -->
+<symbol id="i-breath" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+    <circle cx="24" cy="24" r="15"/>
+    <circle cx="24" cy="24" r="8" opacity="0.5"/>
+    <path d="M6 24 H14 L17 16 L21 30 L24 20 L27 28 L30 24 H42"/>
+  </g>
+</symbol>
+
+<!-- Water Drop -->
+<symbol id="i-water" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 7 C24 7 35 20 35 29 A11 11 0 0 1 13 29 C13 20 24 7 24 7 Z"/>
+    <path d="M20 30 a4 4 0 0 0 4 4" opacity="0.6"/>
+  </g>
+</symbol>
+
+<!-- Four Elements : spiral / elemental -->
+<symbol id="i-elements" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+    <circle cx="24" cy="24" r="16"/>
+    <path d="M24 8 L24 40 M8 24 L40 24" opacity="0.4"/>
+    <path d="M24 24 m-16 0 a16 16 0 0 1 16 -16 a8 8 0 0 1 0 16 a4 4 0 0 1 0 -8"/>
+  </g>
+</symbol>
+
+<!-- Proof of Silence : concentric rings -->
+<symbol id="i-silence" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4">
+    <circle cx="24" cy="24" r="16" opacity="0.35"/>
+    <circle cx="24" cy="24" r="11" opacity="0.6"/>
+    <circle cx="24" cy="24" r="6"/>
+    <circle cx="24" cy="24" r="1.6" fill="currentColor"/>
+  </g>
+</symbol>
+
+<!-- Pillars -->
+<symbol id="i-awareness" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+    <path d="M6 24 C12 14 36 14 42 24 C36 34 12 34 6 24 Z"/>
+    <circle cx="24" cy="24" r="5.5"/>
+    <circle cx="24" cy="24" r="1.4" fill="currentColor"/>
+  </g>
+</symbol>
+<symbol id="i-embodiment" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+    <circle cx="24" cy="12" r="4"/>
+    <path d="M24 16 L24 30 M24 30 L16 40 M24 30 L32 40 M14 22 L34 22"/>
+  </g>
+</symbol>
+<symbol id="i-intelligence" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+    <circle cx="24" cy="10" r="3"/><circle cx="11" cy="30" r="3"/><circle cx="37" cy="30" r="3"/>
+    <circle cx="24" cy="40" r="3"/><circle cx="24" cy="24" r="3"/>
+    <path d="M24 13 L24 21 M22 22 L13 28 M26 22 L35 28 M13 33 L22 39 M35 33 L26 39"/>
+  </g>
+</symbol>
+<symbol id="i-evolution" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round">
+    <path d="M8 38 C16 38 18 10 24 10 C30 10 32 38 40 38"/>
+    <path d="M24 10 L24 4 M21 7 L24 4 L27 7" opacity="0.8"/>
+  </g>
+</symbol>
+
+<!-- UI -->
+<symbol id="i-arrow" viewBox="0 0 24 24">
+  <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M5 12 H19 M13 6 L19 12 L13 18"/>
+  </g>
+</symbol>
+<symbol id="i-arrow-ur" viewBox="0 0 24 24">
+  <g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 17 L17 7 M9 7 H17 V15"/>
+  </g>
+</symbol>
+
+<!-- meditative figure -->
+<symbol id="i-figure" viewBox="0 0 80 120">
+  <g fill="currentColor">
+    <circle cx="40" cy="20" r="9"/>
+    <path d="M40 31 C26 31 18 44 18 60 C18 72 24 80 24 80 L20 104 L30 104 L34 84 L46 84 L50 104 L60 104 L56 80 C56 80 62 72 62 60 C62 44 54 31 40 31 Z M24 64 C24 64 16 70 12 82 M56 64 C56 64 64 70 68 82"/>
+  </g>
+</symbol>
+
+<!-- Sacred geometry: flower / mandala for mission -->
+<symbol id="i-mandala" viewBox="0 0 200 200">
+  <g fill="none" stroke="currentColor" stroke-width="1">
+    <circle cx="100" cy="100" r="80"/>
+    <circle cx="100" cy="100" r="55" opacity="0.6"/>
+    <circle cx="100" cy="100" r="30" opacity="0.4"/>
+    <g opacity="0.7">
+      <circle cx="100" cy="55" r="30"/><circle cx="100" cy="145" r="30"/>
+      <circle cx="61" cy="77" r="30"/><circle cx="139" cy="77" r="30"/>
+      <circle cx="61" cy="123" r="30"/><circle cx="139" cy="123" r="30"/>
+    </g>
+    <circle cx="100" cy="100" r="6" fill="currentColor"/>
+  </g>
+</symbol>
+
+<!-- Socials -->
+<symbol id="i-x" viewBox="0 0 24 24"><path fill="currentColor" d="M18.244 2H21.5l-7.5 8.57L22.5 22h-6.8l-5-6.54L4.9 22H1.64l8.02-9.16L1.5 2h6.96l4.53 5.98L18.244 2Zm-1.19 18h1.83L7.04 3.9H5.07L17.05 20Z"/></symbol>
+<symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.46-1.11-1.46-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></symbol>
+<symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.8v1.64h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.59 22 10.3 22 13.6V21h-4v-6.6c0-1.57-.03-3.6-2.2-3.6-2.2 0-2.54 1.72-2.54 3.49V21H9V9Z"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5 12 13l8.5-6.5"/></g></symbol>
+</svg>
