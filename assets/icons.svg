@@ -136,4 +136,88 @@
 <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.46-1.11-1.46-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.5 9.5 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></symbol>
 <symbol id="i-linkedin" viewBox="0 0 24 24"><path fill="currentColor" d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.8v1.64h.05c.53-1 1.83-2.05 3.77-2.05C20.6 8.59 22 10.3 22 13.6V21h-4v-6.6c0-1.57-.03-3.6-2.2-3.6-2.2 0-2.54 1.72-2.54 3.49V21H9V9Z"/></symbol>
 <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5 12 13l8.5-6.5"/></g></symbol>
+
+<!-- ===== Learn section icons ===== -->
+
+<!-- Spark / AI assistant -->
+<symbol id="i-spark" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M24 6 C26 16 32 22 42 24 C32 26 26 32 24 42 C22 32 16 26 6 24 C16 22 22 16 24 6 Z"/>
+    <path d="M37 8 c.7 3.2 2 4.5 5.2 5.2 -3.2.7-4.5 2-5.2 5.2 -.7-3.2-2-4.5-5.2-5.2 3.2-.7 4.5-2 5.2-5.2Z"/>
+  </g>
+</symbol>
+
+<!-- Terminal -->
+<symbol id="i-terminal" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="7" y="10" width="34" height="28" rx="3"/>
+    <path d="M14 21 L20 25 L14 29"/>
+    <path d="M24 30 L33 30"/>
+  </g>
+</symbol>
+
+<!-- Foundations / layers iceberg -->
+<symbol id="i-foundations" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M24 6 L42 15 L24 24 L6 15 Z"/>
+    <path d="M6 24 L24 33 L42 24"/>
+    <path d="M6 33 L24 42 L42 33"/>
+  </g>
+</symbol>
+
+<!-- Robot -->
+<symbol id="i-robot" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="11" y="16" width="26" height="22" rx="4"/>
+    <path d="M24 8 L24 16"/>
+    <circle cx="24" cy="6" r="2.4"/>
+    <circle cx="18.5" cy="26" r="2.2" fill="currentColor"/>
+    <circle cx="29.5" cy="26" r="2.2" fill="currentColor"/>
+    <path d="M19 33 L29 33"/>
+    <path d="M11 23 L6 23 M37 23 L42 23"/>
+  </g>
+</symbol>
+
+<!-- Chip / physical AI -->
+<symbol id="i-chip" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="14" y="14" width="20" height="20" rx="3"/>
+    <rect x="20" y="20" width="8" height="8" rx="1"/>
+    <path d="M19 14 L19 8 M29 14 L29 8 M19 34 L19 40 M29 34 L29 40 M14 19 L8 19 M14 29 L8 29 M34 19 L40 19 M34 29 L40 29"/>
+  </g>
+</symbol>
+
+<!-- Gear / mech eng -->
+<symbol id="i-gear" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="24" cy="24" r="7"/>
+    <path d="M24 5 L24 11 M24 37 L24 43 M5 24 L11 24 M37 24 L43 24 M10.6 10.6 L14.8 14.8 M33.2 33.2 L37.4 37.4 M37.4 10.6 L33.2 14.8 M14.8 33.2 L10.6 37.4"/>
+  </g>
+</symbol>
+
+<!-- Check -->
+<symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5 L10 17.5 L19 7"/></symbol>
+
+<!-- Lock -->
+<symbol id="i-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5 V7.5 a4 4 0 0 1 8 0 V10.5"/></g></symbol>
+
+<!-- Play -->
+<symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5 L18 12 L8 18.5 Z"/></symbol>
+
+<!-- Book / lesson -->
+<symbol id="i-book" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M24 12 C20 9 13 9 9 10 L9 36 C13 35 20 35 24 38 C28 35 35 35 39 36 L39 10 C35 9 28 9 24 12 Z"/>
+    <path d="M24 12 L24 38"/>
+  </g>
+</symbol>
+
+<!-- Compass / path -->
+<symbol id="i-compass" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="24" cy="24" r="18"/>
+    <path d="M30 18 L26 26 L18 30 L22 22 Z"/>
+    <circle cx="24" cy="24" r="1.6" fill="currentColor"/>
+  </g>
+</symbol>
 </svg>
