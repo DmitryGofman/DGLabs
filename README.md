@@ -22,6 +22,7 @@ into a clean white research-lab body as you scroll.
 | `index.html` | Home — vision, mission, projects, philosophy, journal preview |
 | `projects.html` | Detailed view of each product & experiment |
 | `learn.html` | **The Builder's Path** — interactive coding curriculum (see below) |
+| `robotics.html` | **Robotics Study Plan** — interactive personalized robotics path (see below) |
 | `vision.html` | Long-form manifesto |
 | `about.html` | Dmitry Gofman — background & practice |
 | `journal.html` | Essays & research notes |
@@ -51,6 +52,26 @@ robotics, and physical AI** with Claude Code and other modern tooling.
 
 Implemented in `assets/css/learn.css` and `assets/js/learn.js`, layered on the
 shared design system. No build step, no dependencies.
+
+## Robotics — Personalized Study Plan
+
+A dedicated module (`robotics.html`) implementing a full personalized robotics
+study plan as an interactive tool:
+
+- **Self-assessment & gap analysis** — rate yourself across 16 robotics domains;
+  a readiness score and a priority-ranked list of gaps (weighted by how
+  foundational each area is) update live.
+- **Competency curriculum** — 14 core topics in order of importance, each with a
+  full-time study estimate, plus a **study-time calculator** that converts the
+  remaining work into a realistic calendar based on your weekly hours.
+- **Hands-on projects** — five builds from line-follower to sim-to-real, with
+  deliverables and component lists.
+- **Resources, 24-month timeline, and career prep** — authoritative sources, a
+  five-phase roadmap with checkpoints at 6/12/24 months, target roles, and
+  interview preparation.
+
+Progress and self-assessment are saved per-device in `localStorage`. Built in
+`assets/css/robotics.css` + `assets/js/robotics.js` on the shared design system.
 
 ## Stack
 
