@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Robotics Study Plan — Gofman Labs</title>
+<meta name="description" content="An interactive, personalized robotics study plan: self-assessment with gap analysis, a core-competency curriculum with a study-time calculator, hands-on projects, a 24-month roadmap, and career prep." />
+<meta name="theme-color" content="#080A0B" />
+<meta property="og:title" content="Robotics Study Plan — Gofman Labs" />
+<meta property="og:description" content="Interactive personalized robotics study plan: self-assessment, competencies, projects, a 24-month roadmap, and career prep." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/learn.css" />
+<link rel="stylesheet" href="assets/css/robotics.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%23080A0B'/%3E%3Cpath d='M16 4a12 12 0 0 0 0 24 9 9 0 0 1 0-24z' fill='%23D4C6A1'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" aria-label="Primary">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html" aria-label="Gofman Labs home">
+      <svg class="mark" aria-hidden="true"><use href="assets/icons.svg#i-mark"/></svg>
+      <span>Gofman Labs</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="learn.html">Learn</a></li>
+      <li><a href="robotics.html" class="active">Robotics</a></li>
+      <li><a href="vision.html">Vision</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="journal.html">Journal</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn-ghost-light nav-cta">Contact</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html">Home</a><a href="projects.html">Projects</a><a href="learn.html">Learn</a><a href="robotics.html">Robotics</a><a href="vision.html">Vision</a>
+  <a href="about.html">About</a><a href="journal.html">Journal</a><a href="contact.html">Contact</a>
+  <p class="mm-foot">Technology for Human Evolution</p>
+</div>
+
+<!-- HERO -->
+<header class="page-hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <svg class="hero-rings" viewBox="0 0 760 760" aria-hidden="true" fill="none" stroke="#B8A57A" style="opacity:0.35">
+    <circle cx="380" cy="380" r="360" opacity="0.10"/>
+    <circle cx="380" cy="380" r="260" opacity="0.14"/>
+    <circle cx="380" cy="380" r="160" opacity="0.20"/>
+  </svg>
+  <div class="wrap">
+    <span class="eyebrow">Learn · Robotics Study Plan</span>
+    <h1>A personalized path to <em>robotics</em> mastery</h1>
+    <p class="lede">A complete, interactive study plan — assess your gaps, work through the core competencies with a study-time calculator, build five hands-on projects, and follow a 24-month roadmap toward a robotics career. Your progress is saved on this device.</p>
+    <div class="learn-hero-meta">
+      <div class="progress-pill" title="Competencies, projects and roadmap phases completed">
+        <span class="pp-label">Plan progress</span>
+        <svg class="r-progress-ring" viewBox="0 0 38 38" aria-hidden="true">
+          <circle class="track" cx="19" cy="19" r="16" fill="none" stroke-width="3"/>
+          <circle class="bar" cx="19" cy="19" r="16" fill="none" stroke-width="3" stroke-dasharray="100" stroke-dashoffset="100"/>
+        </svg>
+        <span class="pp-pct" id="robotics-hero-pct">0%</span>
+      </div>
+      <p class="hero-quote">Adapt the schedule to your pace — the plan is a compass, not a cage.</p>
+    </div>
+  </div>
+</header>
+
+<main class="light" data-nav-light>
+
+<!-- OVERVIEW -->
+<section class="section" style="padding-bottom:clamp(28px,4vw,44px)">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">The approach</span>
+      <h2 class="reveal d1">Assess, learn, build, <em>then get hired.</em></h2>
+      <p class="reveal d2 r-lead">This plan turns the path into robotics from a vague ambition into a measurable system: audit your competencies against the field, prioritise the gaps, study the fundamentals in order, prove them with projects, and track milestones at 6, 12, and 24 months — using Claude Code to accelerate the coding throughout.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 1. SELF-ASSESSMENT -->
+<section class="section" id="assessment" style="padding-top:0">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">01 · Skills Mapping</span>
+      <h2 class="reveal d1">Self-assessment &amp; <em>gap analysis</em></h2>
+      <p class="reveal d2 r-lead">Rate your current level in each robotics domain. As you do, your readiness score updates and the highest-priority gaps — weighted by how foundational each area is — rise to the top.</p>
+    </div>
+
+    <div class="audit-wrap">
+      <div class="audit-grid reveal" id="audit-grid"></div>
+      <aside class="readiness reveal d1">
+        <h3>Your readiness</h3>
+        <div class="r-verdict" id="readiness-verdict">Rate yourself to begin</div>
+        <div class="r-score"><span class="lab">Overall</span><b id="readiness-pct">0%</b></div>
+        <div class="r-meter"><span id="readiness-bar"></span></div>
+        <div class="gaps-title">Prioritised focus areas</div>
+        <div id="gap-list"></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- 2. CORE COMPETENCIES -->
+<section class="section light" id="competencies" style="padding-top:0">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">02 · Core Concepts</span>
+      <h2 class="reveal d1">The competency curriculum</h2>
+      <p class="reveal d2 r-lead">Fourteen core topics in order of foundational importance, each with a full-time study estimate. Check them off as you go — the calculator turns the remaining work into a realistic calendar based on your weekly hours.</p>
+    </div>
+
+    <div class="comp-toolbar">
+      <div class="comp-prog-card reveal">
+        <h3>Curriculum progress</h3>
+        <div class="cp-count" id="comp-progress-count">0 / 14 topics</div>
+        <div class="cp-meter"><span id="comp-progress-bar"></span></div>
+      </div>
+      <div class="calc-card reveal d1">
+        <h3>Study-time calculator</h3>
+        <div class="calc-input">
+          <label for="calc-hours">I can study</label>
+          <input type="number" id="calc-hours" value="10" min="1" max="80" /> <label>hours / week</label>
+        </div>
+        <div id="calc-output"></div>
+      </div>
+    </div>
+
+    <div class="competency-list" id="competency-list"></div>
+  </div>
+</section>
+
+<!-- 3. CODING & AI TOOLS -->
+<section class="section philosophy" id="coding">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">03 · Coding &amp; AI Tools</span>
+      <h2 class="reveal d1">The languages, and a <em>force multiplier</em></h2>
+      <p class="reveal d2 r-lead">Python and C/C++ are the most-used languages in robotics. Pair them with disciplined ROS2 development and real-time programming — and use Claude to generate boilerplate, tests, and documentation so you spend your time on the hard parts.</p>
+    </div>
+
+    <div class="coding-grid">
+      <div class="coding-cell reveal">
+        <svg aria-hidden="true"><use href="assets/icons.svg#i-terminal"/></svg>
+        <h4>Python &amp; C/C++</h4>
+        <p>Python for high-level logic and ML; C/C++ for real-time and embedded control code.</p>
+      </div>
+      <div class="coding-cell reveal d1">
+        <svg aria-hidden="true"><use href="assets/icons.svg#i-robot"/></svg>
+        <h4>ROS2 Development</h4>
+        <p>Write nodes and services in C++ and Python; build with colcon; communicate over DDS middleware.</p>
+      </div>
+      <div class="coding-cell reveal d2">
+        <svg aria-hidden="true"><use href="assets/icons.svg#i-chip"/></svg>
+        <h4>Real-Time Programming</h4>
+        <p>FreeRTOS / RT Linux, multithreading, and deterministic timing for stable control loops.</p>
+      </div>
+      <div class="coding-cell reveal d3">
+        <svg aria-hidden="true"><use href="assets/icons.svg#i-spark"/></svg>
+        <h4>Claude &amp; AI Tools</h4>
+        <p>Be explicit and structure instructions as steps. Use AI for boilerplate, test generation, and docs.</p>
+      </div>
+    </div>
+
+    <div class="code-card reveal">
+      <div class="cc-bar">
+        <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+        <span class="cc-title">generate_node.py — Claude as a coding co-pilot</span>
+      </div>
+<pre><span class="k">from</span> anthropic <span class="k">import</span> Anthropic
+
+client = <span class="f">Anthropic</span>(api_key=<span class="s">"YOUR_API_KEY"</span>)
+
+<span class="c"># Prompt Claude to generate a ROS2 node for LiDAR obstacle detection</span>
+resp = client.messages.<span class="f">create</span>(
+    model=<span class="s">"claude-sonnet-4-6"</span>,   <span class="c"># use a current, capable model</span>
+    max_tokens=<span class="s">1024</span>,
+    messages=[{<span class="s">"role"</span>: <span class="s">"user"</span>, <span class="s">"content"</span>:
+        <span class="s">"Generate a Python ROS2 node that subscribes to '/scan' "</span>
+        <span class="s">"and publishes the nearest obstacle distance. Comment every line."</span>}],
+)
+<span class="f">print</span>(resp.content)</pre>
+    </div>
+  </div>
+</section>
+
+<!-- 4. PROJECTS -->
+<section class="section light" id="projects">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">04 · Hands-on Projects</span>
+      <h2 class="reveal d1">Prove it by <em>building</em></h2>
+      <p class="reveal d2 r-lead">Five projects ordered by difficulty and impact. Each lists concrete deliverables and a component list — start at the top and let the difficulty climb with your skill. Tick a project when it runs.</p>
+    </div>
+    <div class="project-list" id="project-list"></div>
+  </div>
+</section>
+
+<!-- 5. RESOURCES -->
+<section class="section light" id="resources" style="padding-top:0">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">05 · Resources</span>
+      <h2 class="reveal d1">Authoritative sources</h2>
+      <p class="reveal d2 r-lead">University courses, the canonical textbooks, and the official docs you'll return to again and again.</p>
+    </div>
+    <div class="res-table-wrap reveal">
+      <table class="res-table">
+        <thead><tr><th>Resource</th><th>Type</th><th>Topics</th><th>Where</th></tr></thead>
+        <tbody id="res-body"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- 6. TIMELINE -->
+<section class="section philosophy" id="timeline">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">06 · Timeline &amp; Milestones</span>
+      <h2 class="reveal d1">A 24-month <em>roadmap</em></h2>
+      <p class="reveal d2 r-lead">Five phases with evaluation checkpoints at 6, 12, and 24 months. Mark a phase complete when you've hit its checkpoint. Adapt the pace to your life — consistency beats intensity.</p>
+    </div>
+    <div class="timeline-list" id="timeline-list"></div>
+
+    <div class="section-head" style="margin-top:clamp(48px,7vw,80px)">
+      <span class="eyebrow reveal">The project loop</span>
+      <h2 class="reveal d1" style="font-size:clamp(1.6rem,3.4vw,2.4rem)">Every build follows the same cycle</h2>
+    </div>
+    <div class="workflow reveal">
+      <div class="wf-step"><span class="wf-n">1</span> Define goals</div>
+      <span class="wf-arrow">→</span>
+      <div class="wf-step"><span class="wf-n">2</span> Design system</div>
+      <span class="wf-arrow">→</span>
+      <div class="wf-step"><span class="wf-n">3</span> Test in simulation</div>
+      <span class="wf-arrow">→</span>
+      <div class="wf-step"><span class="wf-n">4</span> Build &amp; code on robot</div>
+      <span class="wf-arrow">→</span>
+      <div class="wf-step"><span class="wf-n">5</span> Test &amp; debug</div>
+      <span class="wf-arrow">→</span>
+      <div class="wf-step"><span class="wf-n">6</span> Iterate &amp; optimise</div>
+      <span class="wf-arrow">→</span>
+      <div class="wf-step"><span class="wf-n">7</span> Document &amp; present</div>
+    </div>
+  </div>
+</section>
+
+<!-- 7. CAREER -->
+<section class="section light" id="career">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">07 · Career &amp; Interviews</span>
+      <h2 class="reveal d1">From study plan to <em>job offer</em></h2>
+      <p class="reveal d2 r-lead">Target the roles your cross-disciplinary fit suits, build a portfolio that proves it, and prepare to walk an interviewer through your work.</p>
+    </div>
+
+    <div class="roles-grid">
+      <div class="role-card reveal"><h4>Robotics Engineer</h4><p>End-to-end design of robotic systems across software and hardware.</p></div>
+      <div class="role-card reveal d1"><h4>Automation Engineer</h4><p>Manufacturing and logistics automation, PLCs, and integration.</p></div>
+      <div class="role-card reveal d2"><h4>Control Systems Engineer</h4><p>Motion control, state estimation, and stability for dynamic systems.</p></div>
+      <div class="role-card reveal d3"><h4>Perception / AI Engineer</h4><p>Vision, LiDAR, and learned models for autonomy.</p></div>
+    </div>
+
+    <div class="career-cols">
+      <div class="reveal">
+        <h3>Build a portfolio</h3>
+        <ul>
+          <li>Curate a GitHub with polished code and a README per project.</li>
+          <li>Include simulation demos and short video walk-throughs.</li>
+          <li>For each project, state your role, the challenges, and your solutions.</li>
+          <li>Keep an engineering decision log as you build (see <a href="projects.html#avirlog" style="color:var(--bronze)">Avirlog</a>).</li>
+        </ul>
+      </div>
+      <div class="reveal d1">
+        <h3>Prepare for interviews</h3>
+        <ul>
+          <li>Review fundamentals: kinematics, control, and core algorithms.</li>
+          <li>Practice problems: sensor calibration, writing ROS nodes, system design.</li>
+          <li>Use the STAR method to narrate projects and teamwork.</li>
+          <li>Expect a candidate-led walkthrough of your past work — rehearse it.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="reset-row">
+      <button class="reset-btn" id="reset-robotics">Reset my robotics progress</button>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section cta-strip">
+  <div class="wrap">
+    <span class="eyebrow reveal" style="justify-content:center">Start now</span>
+    <h2 class="reveal d1">The robot you want to build <em>starts with one lesson.</em></h2>
+    <div class="actions reveal d2">
+      <a href="#assessment" class="btn btn-gold">Take the self-assessment <svg aria-hidden="true"><use href="assets/icons.svg#i-arrow"/></svg></a>
+      <a href="learn.html" class="btn btn-ghost-light">Back to The Builder's Path</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-col footer-brand-col">
+        <a class="brand" href="index.html"><svg class="mark" style="color:var(--gold)" aria-hidden="true"><use href="assets/icons.svg#i-mark"/></svg><span>Gofman Labs</span></a>
+        <p class="footer-blurb">Technology for Human Evolution. A personal research lab and product studio building tools that cultivate human capability.</p>
+      </div>
+      <div class="footer-col"><h4>Navigate</h4><a href="index.html">Home</a><a href="learn.html">Learn</a><a href="robotics.html">Robotics</a><a href="vision.html">Vision</a><a href="about.html">About</a></div>
+      <div class="footer-col"><h4>Study Plan</h4><a href="robotics.html#assessment">Self-assessment</a><a href="robotics.html#competencies">Competencies</a><a href="robotics.html#projects">Projects</a><a href="robotics.html#timeline">Timeline</a></div>
+      <div class="footer-col"><h4>Connect</h4><a href="contact.html">Contact</a><a href="mailto:hello@gofmanlabs.com">hello@gofmanlabs.com</a></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Gofman Labs · Dmitry Gofman</span>
+      <div class="socials">
+        <a href="#" aria-label="X / Twitter"><svg aria-hidden="true"><use href="assets/icons.svg#i-x"/></svg></a>
+        <a href="#" aria-label="GitHub"><svg aria-hidden="true"><use href="assets/icons.svg#i-github"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg aria-hidden="true"><use href="assets/icons.svg#i-linkedin"/></svg></a>
+        <a href="mailto:hello@gofmanlabs.com" aria-label="Email"><svg aria-hidden="true"><use href="assets/icons.svg#i-mail"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/robotics.js" defer></script>
+</body>
+</html>
