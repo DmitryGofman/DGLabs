@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Learn — The Builder's Path · Gofman Labs</title>
+<meta name="description" content="An interactive path from vibe coding to real engineering — master Claude Code and the production skills to build your own tools for mechanical engineering, robotics, and physical AI." />
+<meta name="theme-color" content="#080A0B" />
+<meta property="og:title" content="The Builder's Path — Gofman Labs" />
+<meta property="og:description" content="From vibe coding to real engineering. Learn Claude Code and production skills to build tools for robotics and physical AI." />
+<meta property="og:type" content="website" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+<link rel="stylesheet" href="assets/css/learn.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%23080A0B'/%3E%3Cpath d='M16 4a12 12 0 0 0 0 24 9 9 0 0 1 0-24z' fill='%23D4C6A1'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" aria-label="Primary">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html" aria-label="Gofman Labs home">
+      <svg class="mark" aria-hidden="true"><use href="assets/icons.svg#i-mark"/></svg>
+      <span>Gofman Labs</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="learn.html" class="active">Learn</a></li>
+      <li><a href="vision.html">Vision</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="journal.html">Journal</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn-ghost-light nav-cta">Contact</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html">Home</a><a href="projects.html">Projects</a><a href="learn.html">Learn</a><a href="vision.html">Vision</a>
+  <a href="about.html">About</a><a href="journal.html">Journal</a><a href="contact.html">Contact</a>
+  <p class="mm-foot">Technology for Human Evolution</p>
+</div>
+
+<!-- HERO -->
+<header class="page-hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <svg class="hero-rings" viewBox="0 0 760 760" aria-hidden="true" fill="none" stroke="#B8A57A" style="opacity:0.35">
+    <circle cx="380" cy="380" r="360" opacity="0.10"/>
+    <circle cx="380" cy="380" r="260" opacity="0.14"/>
+    <circle cx="380" cy="380" r="160" opacity="0.20"/>
+  </svg>
+  <div class="wrap">
+    <span class="eyebrow">Learn · The Builder's Path</span>
+    <h1>From <em>vibe coding</em> to real engineering</h1>
+    <p class="lede">Anyone can prompt an AI into a demo that works once. This is the interactive path to building tools you can actually trust — and use to push your own work in mechanical engineering, robotics, and physical AI.</p>
+    <div class="learn-hero-meta">
+      <div class="progress-pill" title="Your progress is saved on this device">
+        <span class="pp-label">Your progress</span>
+        <svg class="progress-ring" viewBox="0 0 38 38" aria-hidden="true">
+          <circle class="track" cx="19" cy="19" r="16" fill="none" stroke-width="3"/>
+          <circle class="bar" cx="19" cy="19" r="16" fill="none" stroke-width="3" stroke-dasharray="100" stroke-dashoffset="100"/>
+        </svg>
+        <span class="pp-pct">0%</span>
+      </div>
+      <p class="hero-quote">"If it was as easy as everyone says it is on social media, we'd all be done already."</p>
+    </div>
+  </div>
+</header>
+
+<main class="light" data-nav-light>
+
+<!-- THE ICEBERG -->
+<section class="section ocean">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow" style="color:var(--term-cyan)">The Iceberg</span>
+      <h2>Vibe coding is the <em>tip</em>. Engineering is everything beneath.</h2>
+      <p>The shiny part — chatting with an AI and watching code appear — is real and powerful. But durable tools live below the waterline. Tap any layer to see what it means and why it matters.</p>
+    </div>
+
+    <div class="iceberg">
+      <div class="berg-col berg-tip">
+        <div class="waterline">Above the water · the easy 10%</div>
+        <h3><svg width="22" height="22" aria-hidden="true"><use href="assets/icons.svg#i-spark"/></svg> Vibe Coding</h3>
+        <div class="berg-list">
+          <button class="berg-item" aria-expanded="false">Prompt an AI assistant <span class="bi-plus">+</span></button>
+          <div class="berg-detail">Describe what you want in plain language and watch code appear. This is the genuine superpower — it collapses the time from idea to first draft. Tools like <code>Claude Code</code> make it conversational.</div>
+          <button class="berg-item" aria-expanded="false">Generate a working demo <span class="bi-plus">+</span></button>
+          <div class="berg-detail">A script that runs once on your machine. Perfect for exploring an idea — but a demo is not yet a tool other people (or robots) can depend on.</div>
+          <button class="berg-item" aria-expanded="false">Copy, paste, run <span class="bi-plus">+</span></button>
+          <div class="berg-detail">Fast and satisfying. The trap is that you don't yet understand <em>why</em> it works — so when it breaks, you're stuck. This path closes that gap.</div>
+        </div>
+      </div>
+
+      <div class="berg-col berg-deep">
+        <div class="waterline">Below the water · the real 90%</div>
+        <h3><svg width="22" height="22" aria-hidden="true"><use href="assets/icons.svg#i-foundations"/></svg> Production Reality</h3>
+        <div class="berg-list">
+          <button class="berg-item" aria-expanded="false">Version control &amp; collaboration <span class="bi-plus">+</span></button>
+          <div class="berg-detail">Git, branches, pull requests. How you experiment safely, undo mistakes, and let an AI edit your files without fear. Covered in <code>Track 01</code>.</div>
+          <button class="berg-item" aria-expanded="false">Testing, debugging &amp; CI/CD <span class="bi-plus">+</span></button>
+          <div class="berg-detail">How you <em>prove</em> code works and keep it working — automatically, on every change. The difference between "ran once" and "reliable." See <code>Track 03</code>.</div>
+          <button class="berg-item" aria-expanded="false">Environments, containers &amp; deployment <span class="bi-plus">+</span></button>
+          <div class="berg-detail">Docker, dependencies, lockfiles, servers, edge devices. Making your tool run the same way everywhere — including on real hardware.</div>
+          <button class="berg-item" aria-expanded="false">Databases, APIs &amp; real-time data <span class="bi-plus">+</span></button>
+          <div class="berg-detail">Storing sensor streams, talking to other systems, validating inputs you don't control. Most engineering is, quietly, data handling.</div>
+          <button class="berg-item" aria-expanded="false">Architecture &amp; judgement <span class="bi-plus">+</span></button>
+          <div class="berg-detail">Knowing <em>what</em> to build and which tradeoffs to make. The agent accelerates the typing; this path builds the judgement that directs it.</div>
+        </div>
+        <p class="berg-note">Good news: with Claude Code as your partner, you don't have to memorise the depths. You learn to recognise them, ask the right questions, and let the agent do the heavy lifting — under your direction.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW TO USE -->
+<section class="section" style="padding-bottom:clamp(30px,5vw,50px)">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">How this works</span>
+      <h2 class="reveal d1">Four tracks. Learn the concept, <em>then build with it.</em></h2>
+      <p class="reveal d2">Each lesson pairs a short "why it matters" with a concrete command to run in Claude Code right away. Mark lessons complete as you go — your progress is saved in this browser. Then practise live in the Command Dojo and Prompt Lab below.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CURRICULUM (rendered by learn.js) -->
+<section class="section" id="curriculum-section" style="padding-top:0">
+  <div class="wrap">
+    <div id="curriculum"></div>
+    <div class="reset-row">
+      <button class="reset-btn" id="reset-progress">Reset my progress</button>
+    </div>
+  </div>
+</section>
+
+<!-- COMMAND DOJO -->
+<section class="section philosophy">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">Command Dojo</span>
+      <h2 class="reveal d1">Try the workflow in a <em>safe sandbox</em></h2>
+      <p class="reveal d2">A simulated Claude Code terminal. Type a command or tap one from the palette to see what it does — no risk, no setup. This is muscle memory for the real thing.</p>
+    </div>
+
+    <div class="dojo">
+      <div class="terminal reveal">
+        <div class="term-bar">
+          <span class="term-dot r"></span><span class="term-dot y"></span><span class="term-dot g"></span>
+          <span class="term-title">claude-code — practice session</span>
+        </div>
+        <div class="term-screen" id="term-screen">
+          <div class="term-line gold">Welcome to the Command Dojo.</div>
+          <div class="term-line">This is a practice terminal — nothing here touches a real project.</div>
+          <div class="term-line muted">Type <span style="color:var(--term-cyan)">help</span> and press Enter, or tap a command on the right.</div>
+          <div class="term-line">&nbsp;</div>
+        </div>
+        <div class="term-input-row">
+          <span class="prompt">❯</span>
+          <input class="term-input" id="term-input" type="text" autocomplete="off" spellcheck="false" placeholder="type a command, then Enter…" aria-label="Terminal input" />
+        </div>
+      </div>
+
+      <div class="cmd-palette reveal d1">
+        <h3>Essential commands</h3>
+        <p>The vocabulary that separates supervising an agent from just chatting with it.</p>
+        <button class="cmd-chip" data-cmd="/init"><span class="ck">/init</span><span class="cd">generate project memory</span></button>
+        <button class="cmd-chip" data-cmd="/plan"><span class="ck">/plan</span><span class="cd">plan before building</span></button>
+        <button class="cmd-chip" data-cmd="/clear"><span class="ck">/clear</span><span class="cd">reset the conversation</span></button>
+        <button class="cmd-chip" data-cmd="/review"><span class="ck">/review</span><span class="cd">critique your changes</span></button>
+        <button class="cmd-chip" data-cmd="git status"><span class="ck">git status</span><span class="cd">see what changed</span></button>
+        <button class="cmd-chip" data-cmd="help"><span class="ck">help</span><span class="cd">list demo commands</span></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROMPT LAB -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">Prompt Lab</span>
+      <h2 class="reveal d1">Your output is only as good as <em>your ask</em></h2>
+      <p class="reveal d2">The highest-leverage skill in AI-assisted engineering isn't typing — it's specifying. Write a prompt below and get instant feedback on what would make it sharper.</p>
+    </div>
+
+    <div class="promptlab">
+      <div class="pl-panel reveal">
+        <h3>Grade my prompt</h3>
+        <p>Write the instruction you'd give Claude Code, then check it against five marks of a strong prompt.</p>
+        <textarea class="pl-text" id="pl-input" placeholder="e.g. Refactor this data-logging function for readability. Keep the public signature, add type hints, use only the standard library, and explain the tradeoffs before changing anything."></textarea>
+        <div class="pl-actions">
+          <button class="btn btn-gold" id="pl-grade">Evaluate <svg aria-hidden="true"><use href="assets/icons.svg#i-arrow"/></svg></button>
+          <button class="btn btn-ghost-dark" id="pl-clear">Clear</button>
+        </div>
+        <div class="pl-score" id="pl-result" aria-live="polite"></div>
+      </div>
+
+      <div class="pl-panel reveal d1">
+        <h3>The same request, two ways</h3>
+        <p>Notice how the strong version supplies context, constraints, and a definition of done.</p>
+        <div class="pl-compare">
+          <div class="pl-example bad">
+            <span class="tag">✕ Vague</span>
+            "make a script to read my sensor"
+          </div>
+          <div class="pl-example good">
+            <span class="tag">✓ Specific</span>
+            "Write a Python script that reads my IMU over serial at 100&nbsp;Hz, applies a low-pass filter, logs to CSV with timestamps, and handles disconnects gracefully. Use only pyserial + numpy. Show me a plan first."
+          </div>
+        </div>
+        <p style="margin-top:1.1rem;font-size:0.88rem;color:var(--text-muted)">Context · Constraints · A "done" condition · Plan-first. Master this and the agent feels twice as capable.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOMAIN BUILDS -->
+<section class="section philosophy">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">Build for your domain</span>
+      <h2 class="reveal d1">Guided first projects in <em>your</em> field</h2>
+      <p class="reveal d2">Skills stick when they're applied to real work. Each of these is a small, finishable build — copy the starting prompt straight into Claude Code and go.</p>
+    </div>
+
+    <div class="builds-grid">
+      <article class="build-card reveal">
+        <svg class="bc-icon" aria-hidden="true"><use href="assets/icons.svg#i-gear"/></svg>
+        <div class="bc-cat">Mechanical Engineering</div>
+        <h3>Parametric part generator</h3>
+        <p>Turn a repetitive CAD task into code: a script that produces a configurable part and exports it for manufacturing.</p>
+        <ul class="build-steps">
+          <li><span class="sn">1</span><span>Plan the parameters with the agent</span></li>
+          <li><span class="sn">2</span><span>Generate geometry with CadQuery</span></li>
+          <li><span class="sn">3</span><span>Export STL + a quick render</span></li>
+          <li><span class="sn">4</span><span>Add tests for valid dimensions</span></li>
+        </ul>
+        <div class="build-prompt"><span class="lbl">Starting prompt</span>Using CadQuery, build a parametric mounting bracket with configurable hole spacing and thickness. Plan first, then implement, then export an STL.</div>
+      </article>
+
+      <article class="build-card reveal d1">
+        <svg class="bc-icon" aria-hidden="true"><use href="assets/icons.svg#i-robot"/></svg>
+        <div class="bc-cat">Robotics</div>
+        <h3>Sense-and-react node</h3>
+        <p>A small ROS 2 node that closes the loop: read a sensor, decide, and command motion — tested in simulation first.</p>
+        <ul class="build-steps">
+          <li><span class="sn">1</span><span>Scaffold a ROS 2 Python node</span></li>
+          <li><span class="sn">2</span><span>Subscribe to a laser scan</span></li>
+          <li><span class="sn">3</span><span>Publish a velocity command</span></li>
+          <li><span class="sn">4</span><span>Validate in Gazebo before hardware</span></li>
+        </ul>
+        <div class="build-prompt"><span class="lbl">Starting prompt</span>Scaffold a ROS 2 node that stops the robot when an obstacle is within 0.5&nbsp;m of the laser scan. Comment every line and tell me how to run it in simulation.</div>
+      </article>
+
+      <article class="build-card reveal d2">
+        <svg class="bc-icon" aria-hidden="true"><use href="assets/icons.svg#i-chip"/></svg>
+        <div class="bc-cat">Physical AI</div>
+        <h3>Sensor-fusion mini-pipeline</h3>
+        <p>The data backbone of physical AI: ingest noisy signals, filter them, and produce a clean stream a model can learn from.</p>
+        <ul class="build-steps">
+          <li><span class="sn">1</span><span>Generate synthetic noisy data</span></li>
+          <li><span class="sn">2</span><span>Implement a Kalman filter</span></li>
+          <li><span class="sn">3</span><span>Log clean output for training</span></li>
+          <li><span class="sn">4</span><span>Plot raw vs filtered to verify</span></li>
+        </ul>
+        <div class="build-prompt"><span class="lbl">Starting prompt</span>Build a 1-D Kalman filter for a noisy distance sensor, generate synthetic data, log the result, and plot raw vs filtered. Explain each parameter.</div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- KNOWLEDGE CHECK -->
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow reveal">Knowledge check</span>
+      <h2 class="reveal d1">Quick gut-check</h2>
+      <p class="reveal d2">Three questions on the mindset that turns an AI assistant into an engineering multiplier. Pick an answer to reveal the reasoning.</p>
+    </div>
+
+    <div class="quiz">
+      <div class="quiz-q reveal">
+        <div class="qn">Question 01</div>
+        <h4>You're about to ask Claude Code to add a non-trivial feature. What's the highest-leverage first move?</h4>
+        <div class="quiz-opts">
+          <button class="quiz-opt"><span class="qmark"><svg aria-hidden="true"><use href="assets/icons.svg#i-check"/></svg></span>Let it start coding immediately to save time</button>
+          <button class="quiz-opt" data-correct="1"><span class="qmark"><svg aria-hidden="true"><use href="assets/icons.svg#i-check"/></svg></span>Ask for a numbered plan and approve it before any code</button>
+          <button class="quiz-opt"><span class="qmark"><svg aria-hidden="true"><use href="assets/icons.svg#i-check"/></svg></span>Paste in as much code as possible first</button>
+        </div>
+        <div class="quiz-explain">Planning before building is the core discipline that separates engineering from vibe coding. Agreeing on the approach while changes are still cheap prevents wasted work and surfaces risks early.</div>
+      </div>
+
+      <div class="quiz-q reveal d1">
+        <div class="qn">Question 02</div>
+        <h4>Why keep a CLAUDE.md file in your project?</h4>
+        <div class="quiz-opts">
+          <button class="quiz-opt"><span class="qmark"><svg aria-hidden="true"><use href="assets/icons.svg#i-check"/></svg></span>It makes the repository look more professional</button>
+          <button class="quiz-opt"><span class="qmark"><svg aria-hidden="true"><use href="assets/icons.svg#i-check"/></svg></span>It's required for Claude Code to run at all</button>
+          <button class="quiz-opt" data-correct="1"><span class="qmark"><svg aria-hidden="true"><use href="assets/icons.svg#i-check"/></svg></span>It gives the agent persistent context: how to run, test, and build, plus your conventions</button>
+        </div>
+        <div class="quiz-explain">CLAUDE.md is durable memory. It means you don't re-explain your project every session, and the agent makes choices that match your conventions. Generate a first draft with /init.</div>
+      </div>
+
+      <div class="quiz-q reveal d2">
+        <div class="qn">Question 03</div>
+        <h4>Your AI-written script worked once. What makes it a tool you can actually trust?</h4>
+        <div class="quiz-opts">
+          <button class="quiz-opt"><span class="qmark"><svg aria-hidden="true"><use href="assets/icons.svg#i-check"/></svg></span>It ran without errors that one time</button>
+          <button class="quiz-opt" data-correct="1"><span class="qmark"><svg aria-hidden="true"><use href="assets/icons.svg#i-check"/></svg></span>Tests, a reproducible environment, and version control around it</button>
+          <button class="quiz-opt"><span class="qmark"><svg aria-hidden="true"><use href="assets/icons.svg#i-check"/></svg></span>It's long and uses advanced libraries</button>
+        </div>
+        <div class="quiz-explain">"Ran once" is the tip of the iceberg. Tests prove it keeps working, a declared environment makes it run anywhere, and version control lets you change it safely — that's the production reality below the waterline.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section cta-strip">
+  <div class="wrap">
+    <span class="eyebrow reveal" style="justify-content:center">Keep building</span>
+    <h2 class="reveal d1">The tools you need don't exist yet. <em>Build them.</em></h2>
+    <div class="actions reveal d2">
+      <a href="projects.html" class="btn btn-gold">See what's possible <svg aria-hidden="true"><use href="assets/icons.svg#i-arrow"/></svg></a>
+      <a href="contact.html" class="btn btn-ghost-light">Talk it through</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-col footer-brand-col">
+        <a class="brand" href="index.html"><svg class="mark" style="color:var(--gold)" aria-hidden="true"><use href="assets/icons.svg#i-mark"/></svg><span>Gofman Labs</span></a>
+        <p class="footer-blurb">Technology for Human Evolution. A personal research lab and product studio building tools that cultivate human capability.</p>
+      </div>
+      <div class="footer-col"><h4>Navigate</h4><a href="index.html">Home</a><a href="learn.html">Learn</a><a href="vision.html">Vision</a><a href="about.html">About</a><a href="journal.html">Journal</a></div>
+      <div class="footer-col"><h4>Learn</h4><a href="learn.html#curriculum-section">Curriculum</a><a href="learn.html">Command Dojo</a><a href="learn.html">Prompt Lab</a></div>
+      <div class="footer-col"><h4>Connect</h4><a href="contact.html">Contact</a><a href="mailto:hello@gofmanlabs.com">hello@gofmanlabs.com</a></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Gofman Labs · Dmitry Gofman</span>
+      <div class="socials">
+        <a href="#" aria-label="X / Twitter"><svg aria-hidden="true"><use href="assets/icons.svg#i-x"/></svg></a>
+        <a href="#" aria-label="GitHub"><svg aria-hidden="true"><use href="assets/icons.svg#i-github"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg aria-hidden="true"><use href="assets/icons.svg#i-linkedin"/></svg></a>
+        <a href="mailto:hello@gofmanlabs.com" aria-label="Email"><svg aria-hidden="true"><use href="assets/icons.svg#i-mail"/></svg></a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/learn.js" defer></script>
+</body>
+</html>
