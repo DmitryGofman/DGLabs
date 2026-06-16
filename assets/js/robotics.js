@@ -50,59 +50,59 @@
 
   // 2. Core competencies (week estimates assume full-time study)
   var COMPETENCIES = [
-    { id: 'm1', name: 'Mathematics & Physics', wMin: 4, wMax: 6, kicker: 'Foundation',
+    { id: 'm1', name: 'Mathematics & Physics', hMin: 8, hMax: 12, kicker: 'Foundation',
       desc: 'Linear algebra (matrices, transformations), calculus, probability and estimation — the bedrock for kinematics and sensor fusion.',
       sub: ['Matrices & linear transformations', 'Calculus for motion', 'Probability & Bayesian estimation'],
       prompt: 'Teach me the linear algebra behind robot transformations with small NumPy examples I can run.' },
-    { id: 'm2', name: 'Kinematics & Dynamics', wMin: 4, wMax: 6, kicker: 'Core robotics',
+    { id: 'm2', name: 'Kinematics & Dynamics', hMin: 10, hMax: 15, kicker: 'Core robotics',
       desc: 'Robot geometry and motion: forward/inverse kinematics for end-effector positioning, and dynamics via Newton/Lagrange methods.',
       sub: ['Forward & inverse kinematics', 'Rigid-body transforms & Jacobians', 'Newton/Lagrange dynamics'],
       prompt: 'Walk me through forward and inverse kinematics for a 2-link planar arm, then generate Python to solve and plot it.' },
-    { id: 'm3', name: 'Control Systems', wMin: 3, wMax: 4, kicker: 'Core robotics',
+    { id: 'm3', name: 'Control Systems', hMin: 8, hMax: 12, kicker: 'Core robotics',
       desc: 'Linear control and feedback: PID, state-space, and stability — foundational for all robot motion control.',
       sub: ['PID tuning', 'State-space & feedback', 'Stability analysis'],
       prompt: 'Implement a PID controller for a simulated motor, plot the step response, and help me tune the gains.' },
-    { id: 'm4', name: 'Sensors & Actuators', wMin: 2, wMax: 4, kicker: 'Hardware',
+    { id: 'm4', name: 'Sensors & Actuators', hMin: 5, hMax: 8, kicker: 'Hardware',
       desc: 'Common sensors (encoders, IMUs, cameras, LiDAR) and actuators (motors, servos), plus signal processing and ADC/DAC sampling.',
       sub: ['Encoders, IMUs, cameras, LiDAR', 'Motors & servos', 'Filtering, ADC/DAC, sampling'],
       prompt: 'Explain how to interface an IMU with a microcontroller and filter the signal, with example embedded code.' },
-    { id: 'm5', name: 'Embedded & Real-Time Systems', wMin: 3, wMax: 4, kicker: 'Hardware',
+    { id: 'm5', name: 'Embedded & Real-Time Systems', hMin: 8, hMax: 12, kicker: 'Hardware',
       desc: 'Microcontroller programming (C/C++ on ARM/Arduino) and real-time OS concepts: task scheduling, interrupts, deterministic control loops.',
       sub: ['Microcontroller architecture & I/O', 'Interrupts & timers', 'RTOS task scheduling'],
       prompt: 'Show me a FreeRTOS task structure for a deterministic 1 kHz control loop and explain the scheduling.' },
-    { id: 'm6', name: 'Perception', wMin: 5, wMax: 8, kicker: 'Intelligence',
+    { id: 'm6', name: 'Perception', hMin: 12, hMax: 18, kicker: 'Intelligence',
       desc: 'Computer vision and LiDAR processing: image processing (OpenCV), neural nets for detection, point-cloud filtering, and camera+LiDAR sensor fusion.',
       sub: ['Image processing with OpenCV', 'Object detection & classification', 'Point clouds & sensor fusion'],
       prompt: 'Build an OpenCV pipeline that detects and tracks a coloured object from a webcam, commented step by step.' },
-    { id: 'm7', name: 'SLAM', wMin: 3, wMax: 5, kicker: 'Intelligence',
+    { id: 'm7', name: 'SLAM', hMin: 8, hMax: 12, kicker: 'Intelligence',
       desc: 'Simultaneous Localization and Mapping: odometry, Kalman and particle filters, and a simple 2D LiDAR SLAM implementation.',
       sub: ['Odometry & motion models', 'Kalman & particle filters', '2D LiDAR SLAM (Cartographer)'],
       prompt: 'Explain 2D LiDAR SLAM intuitively, then help me run Cartographer on a recorded ROS2 bag.' },
-    { id: 'm8', name: 'Motion Planning', wMin: 3, wMax: 5, kicker: 'Intelligence',
+    { id: 'm8', name: 'Motion Planning', hMin: 8, hMax: 12, kicker: 'Intelligence',
       desc: 'Path-planning algorithms (A*, RRT, Dijkstra) and trajectory generation (splines, optimization), integrated with robot kinematics.',
       sub: ['Graph search: A*, Dijkstra', 'Sampling: RRT / RRT*', 'Trajectory smoothing'],
       prompt: 'Implement A* and RRT on a 2D occupancy grid in Python and visualise the paths side by side.' },
-    { id: 'm9', name: 'Reinforcement Learning', wMin: 4, wMax: 6, kicker: 'Learning',
+    { id: 'm9', name: 'Reinforcement Learning', hMin: 10, hMax: 15, kicker: 'Learning',
       desc: 'RL basics (Q-learning, policy gradients) for robotics: reward design and sim-to-real transfer, practised in Gym or PyBullet.',
       sub: ['Q-learning & policy gradients', 'Reward design', 'Sim-to-real transfer'],
       prompt: 'Set up a PyBullet environment and train a simple policy to balance a cartpole, explaining each component.' },
-    { id: 'm10', name: 'Machine Learning for Robotics', wMin: 6, wMax: 8, kicker: 'Learning',
+    { id: 'm10', name: 'Machine Learning for Robotics', hMin: 12, hMax: 18, kicker: 'Learning',
       desc: 'Supervised learning, neural networks, and deep learning: perception models (CNNs, point nets) and learned system identification.',
       sub: ['Neural network fundamentals', 'CNNs for vision', 'System identification'],
       prompt: 'Help me train a small CNN to classify images from my robot camera, from dataset to evaluation.' },
-    { id: 'm11', name: 'Simulation (Gazebo, PyBullet)', wMin: 3, wMax: 4, kicker: 'Tools',
+    { id: 'm11', name: 'Simulation (Gazebo, PyBullet)', hMin: 6, hMax: 10, kicker: 'Tools',
       desc: 'Robot simulation: Gazebo (Ignition) 3D physics integrated with ROS, and PyBullet for Python-accessible rigid-body dynamics.',
       sub: ['URDF robot modelling', 'Gazebo physics & sensors', 'PyBullet rapid prototyping'],
       prompt: 'Help me write a URDF for a differential-drive robot and spawn it in Gazebo with a LiDAR sensor.' },
-    { id: 'm12', name: 'ROS2 & Middleware', wMin: 3, wMax: 5, kicker: 'Tools',
+    { id: 'm12', name: 'ROS2 & Middleware', hMin: 10, hMax: 15, kicker: 'Tools',
       desc: 'ROS2: nodes, topics/services, TF transforms, DDS middleware, and the colcon build system.',
       sub: ['Nodes, topics & services', 'TF transforms', 'colcon & DDS'],
       prompt: 'Scaffold a ROS2 package with a publisher and subscriber node in Python and explain how to build it with colcon.' },
-    { id: 'm13', name: 'Hardware Prototyping', wMin: 4, wMax: 6, kicker: 'Hardware',
+    { id: 'm13', name: 'Hardware Prototyping', hMin: 8, hMax: 12, kicker: 'Hardware',
       desc: 'Building real robots: mechanical design, PCBs, wiring, and integrating sensors/microcontrollers on Arduino or Raspberry Pi.',
       sub: ['Mechanical design & chassis', 'Wiring & basic PCBs', 'Sensor/MCU integration'],
       prompt: 'Help me plan the wiring and bill of materials for a Raspberry Pi mobile robot with a LiDAR and motor driver.' },
-    { id: 'm14', name: 'Safety & Ethics', wMin: 1, wMax: 2, kicker: 'Responsibility',
+    { id: 'm14', name: 'Safety & Ethics', hMin: 2, hMax: 4, kicker: 'Responsibility',
       desc: 'Safety standards (ISO 10218, ISO/TS 15066 for collaborative robots), fail-safes, and IEEE Ethically Aligned Design principles.',
       sub: ['ISO 10218 / ISO-TS 15066', 'Fail-safes & human-in-loop', 'Ethics & AI bias'],
       prompt: 'Summarise ISO/TS 15066 collaborative-robot safety requirements and how they affect my control design.' }
@@ -288,7 +288,7 @@
       top.innerHTML =
         '<span class="lesson-check" aria-hidden="true"><svg><use href="assets/icons.svg#i-check"/></svg></span>' +
         '<div class="lesson-titles">' +
-          '<div class="lt-kicker">' + c.kicker + ' · ' + c.wMin + '–' + c.wMax + ' weeks</div>' +
+          '<div class="lt-kicker">' + c.kicker + ' · ' + c.hMin + '–' + c.hMax + ' h focused</div>' +
           '<h4>' + c.name + '</h4>' +
         '</div>' +
         '<button class="lesson-toggle" aria-label="Expand topic" aria-expanded="false"><svg aria-hidden="true"><use href="assets/icons.svg#i-arrow"/></svg></button>';
@@ -345,25 +345,27 @@
 
   function updateCalc() {
     var remaining = COMPETENCIES.filter(function (c) { return !progress[c.id]; });
-    var wMin = remaining.reduce(function (s, c) { return s + c.wMin; }, 0);
-    var wMax = remaining.reduce(function (s, c) { return s + c.wMax; }, 0);
+    var hMin = remaining.reduce(function (s, c) { return s + c.hMin; }, 0);
+    var hMax = remaining.reduce(function (s, c) { return s + c.hMax; }, 0);
     var out = document.getElementById('calc-output');
     if (!out) return;
     var hoursEl = document.getElementById('calc-hours');
-    var hours = hoursEl ? Math.max(1, parseInt(hoursEl.value, 10) || 0) : 40;
-    var FT = 40; // full-time baseline hours/week
-    var calMin = Math.round(wMin * FT / hours);
-    var calMax = Math.round(wMax * FT / hours);
-    var moMin = (calMin / 4.33).toFixed(1);
-    var moMax = (calMax / 4.33).toFixed(1);
-    if (wMax === 0) {
+    var hours = hoursEl ? Math.max(1, parseInt(hoursEl.value, 10) || 0) : 10;
+    if (hMax === 0) {
       out.innerHTML = '<strong>All topics complete.</strong> Every core competency is checked off — focus on projects, specialisation, and portfolio.';
       return;
     }
+    var wkMin = hMin / hours, wkMax = hMax / hours;
+    // express calendar time in the most readable unit
+    var span = wkMax < 1.5
+      ? Math.round(wkMin * 7) + '–' + Math.round(wkMax * 7) + ' days'
+      : wkMax < 9
+        ? wkMin.toFixed(1) + '–' + wkMax.toFixed(1) + ' weeks'
+        : (wkMin / 4.33).toFixed(1) + '–' + (wkMax / 4.33).toFixed(1) + ' months';
     out.innerHTML =
-      '<div class="calc-line"><span>Full-time effort remaining</span><b>' + wMin + '–' + wMax + ' weeks</b></div>' +
-      '<div class="calc-line"><span>At ' + hours + ' h/week, calendar time</span><b>' + calMin + '–' + calMax + ' weeks</b></div>' +
-      '<div class="calc-line muted"><span>Roughly</span><b>' + moMin + '–' + moMax + ' months</b></div>';
+      '<div class="calc-line"><span>Focused hours to working competence</span><b>' + hMin + '–' + hMax + ' h</b></div>' +
+      '<div class="calc-line"><span>At ' + hours + ' h/week, that\'s</span><b>' + span + '</b></div>' +
+      '<div class="calc-line muted"><span>Per topic, on average</span><b>~' + Math.round((hMin + hMax) / 2 / COMPETENCIES.length) + ' h</b></div>';
   }
 
   /* --------------------------------------------------------------------- */
