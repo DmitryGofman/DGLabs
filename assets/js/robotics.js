@@ -48,7 +48,7 @@
   ];
   var RATINGS = ['None', 'Basic', 'Proficient']; // 0,1,2
 
-  // 2. Core competencies (week estimates assume full-time study)
+  // 2. Core competencies (hMin/hMax = focused hours to project-ready competence)
   var COMPETENCIES = [
     { id: 'm1', name: 'Mathematics & Physics', hMin: 8, hMax: 12, kicker: 'Foundation',
       desc: 'Linear algebra (matrices, transformations), calculus, probability and estimation — the bedrock for kinematics and sensor fusion.',
