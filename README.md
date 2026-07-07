@@ -1,6 +1,6 @@
-# DMGlabs — Website
+# DGLabs — Website
 
-**Technology for Human Evolution.** Marketing & research site for DMGlabs — a
+**Technology for Human Evolution.** Marketing & research site for DGLabs — a
 personal research lab and product studio building technologies that cultivate
 human capability.
 

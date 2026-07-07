@@ -390,12 +390,11 @@ body.menu-open { overflow: hidden; }
   filter: drop-shadow(0 0 22px rgba(250,248,240,0.35));
 }
 
-/* Vitruvian brand logo in the hero (black background drops out via screen) */
+/* Brand emblem in the hero — metallic ring + figure, transparent badge */
 .hero-logo {
-  width: min(88%, 500px);
+  width: min(92%, 520px);
   height: auto;
-  mix-blend-mode: screen;
-  filter: drop-shadow(0 0 46px rgba(212, 198, 161, 0.28));
+  filter: drop-shadow(0 0 54px rgba(212, 198, 161, 0.22));
   animation: logofloat 7s ease-in-out infinite;
 }
 @keyframes logofloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
