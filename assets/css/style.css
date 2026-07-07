@@ -390,6 +390,17 @@ body.menu-open { overflow: hidden; }
   filter: drop-shadow(0 0 22px rgba(250,248,240,0.35));
 }
 
+/* Vitruvian brand logo in the hero (black background drops out via screen) */
+.hero-logo {
+  width: min(88%, 500px);
+  height: auto;
+  mix-blend-mode: screen;
+  filter: drop-shadow(0 0 46px rgba(212, 198, 161, 0.28));
+  animation: logofloat 7s ease-in-out infinite;
+}
+@keyframes logofloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+@media (prefers-reduced-motion: reduce) { .hero-logo { animation: none; } }
+
 /* faint concentric rings behind hero */
 .hero-rings {
   position: absolute;
@@ -669,6 +680,27 @@ body.menu-open { overflow: hidden; }
 }
 .article p { font-size: 0.9rem; color: var(--text-muted); }
 
+/* Journal — category filter bar */
+.jfilter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: clamp(30px, 5vw, 48px);
+}
+.jf-btn {
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  background: var(--stone);
+  border: 1px solid var(--line-dark);
+  border-radius: 100px;
+  padding: 0.5rem 1.1rem;
+  transition: background 0.25s var(--ease), color 0.25s var(--ease), border-color 0.25s var(--ease);
+}
+.jf-btn:hover { border-color: var(--bronze); color: var(--text-dark); }
+.jf-btn.active { background: var(--charcoal); color: var(--ivory); border-color: var(--charcoal); }
+.jempty { color: var(--text-muted); font-size: 1rem; margin-bottom: 2rem; }
+
 /* ----------------------------------------------------------------------- */
 /*  CTA strip                                                               */
 /* ----------------------------------------------------------------------- */
@@ -816,6 +848,23 @@ body.menu-open { overflow: hidden; }
   place-items: center;
 }
 .portrait svg { width: 64%; color: var(--gold); opacity: 0.9; }
+.portrait-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 22%;
+  z-index: 0;
+}
+.portrait.has-photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(to top, rgba(8,10,11,0.78), rgba(8,10,11,0) 46%);
+}
+.portrait .pname { z-index: 2; }
 .portrait .pname {
   position: absolute;
   left: 1.4rem; bottom: 1.3rem;
