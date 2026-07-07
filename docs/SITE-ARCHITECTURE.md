@@ -1,4 +1,4 @@
-# Gofman Labs — Site Architecture & Growth Plan
+# DMGlabs — Site Architecture & Growth Plan
 
 A blueprint for evolving this site into your **personal lab notebook** — one place
 that documents everything you make: software, mobile games, physical builds,

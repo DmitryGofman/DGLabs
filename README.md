@@ -1,6 +1,6 @@
-# Gofman Labs — Website
+# DMGlabs — Website
 
-**Technology for Human Evolution.** Marketing & research site for Gofman Labs — a
+**Technology for Human Evolution.** Marketing & research site for DMGlabs — a
 personal research lab and product studio building technologies that cultivate
 human capability.
 
@@ -27,7 +27,7 @@ into a clean white research-lab body as you scroll.
 | `architecture.html` | Learn module · **The Architect's Scroll** — gamified software-architecture course (Hebrew, RTL, self-contained) |
 | `vision.html` | Long-form manifesto |
 | `about.html` | Dmitry Gofman — background & practice |
-| `journal.html` | Essays & research notes |
+| `journal.html` | **The Log** — dated, categorized blog with a client-side category filter |
 | `contact.html` | Contact form + details |
 
 > **Site architecture & growth plan:** see [`docs/SITE-ARCHITECTURE.md`](docs/SITE-ARCHITECTURE.md)
