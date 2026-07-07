@@ -21,18 +21,29 @@ into a clean white research-lab body as you scroll.
 | --- | --- |
 | `index.html` | Home — vision, mission, projects, philosophy, journal preview |
 | `projects.html` | Detailed view of each product & experiment |
-| `learn.html` | **The Builder's Path** — interactive coding curriculum (see below) |
-| `robotics.html` | **Robotics Study Plan** — interactive personalized robotics path (see below) |
+| `learn.html` | **Learn hub** — indexes all interactive study modules |
+| `builders-path.html` | Learn module · **The Builder's Path** — coding with Claude Code (see below) |
+| `robotics.html` | Learn module · **Robotics Study Plan** — personalized robotics path (see below) |
+| `architecture.html` | Learn module · **The Architect's Scroll** — gamified software-architecture course (Hebrew, RTL, self-contained) |
 | `vision.html` | Long-form manifesto |
 | `about.html` | Dmitry Gofman — background & practice |
 | `journal.html` | Essays & research notes |
 | `contact.html` | Contact form + details |
 
-## Learn — The Builder's Path
+> **Site architecture & growth plan:** see [`docs/SITE-ARCHITECTURE.md`](docs/SITE-ARCHITECTURE.md)
+> for how the site is structured as a personal documentation blog and the one-repo-vs-many guidance.
 
-An interactive learning section that takes you from "vibe coding" to real
-engineering, oriented toward building tools for **mechanical engineering,
-robotics, and physical AI** with Claude Code and other modern tooling.
+## Learn — a hub of study modules
+
+`learn.html` is a **hub** that lists interactive study modules as cards (with live
+per-module progress read from `localStorage`). New subjects become new module pages
+linked from the hub. Current modules: **The Builder's Path** (coding), **Robotics
+Study Plan**, and **The Architect's Scroll** (software architecture).
+
+### The Builder's Path (`builders-path.html`)
+
+Takes you from "vibe coding" to real engineering, oriented toward building tools for
+**mechanical engineering, robotics, and physical AI** with Claude Code.
 
 - **The Iceberg** — an interactive map of vibe coding (the easy tip) vs. the
   production reality beneath the surface (version control, testing, CI/CD,
