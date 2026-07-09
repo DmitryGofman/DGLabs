@@ -1,6 +1,6 @@
-# DGLabs — Website
+# DG Labs — Website
 
-**Technology for Human Evolution.** Marketing & research site for DGLabs — a
+**Technology for Human Evolution.** Marketing & research site for DG Labs — a
 personal research lab and product studio building technologies that cultivate
 human capability.
 
@@ -9,8 +9,8 @@ human capability.
 A premium, mobile-first static site with a dark cinematic hero that transitions
 into a clean white research-lab body as you scroll.
 
-- Restrained palette: near-black, charcoal, warm ivory, stone, muted gold.
-- Editorial serif (Fraunces) headlines + geometric sans (Inter) body.
+- Brand palette: graphite (#24272C), paper (#F6F3EE), copper accent (#A56B45).
+- Instrument Sans throughout — a precise contemporary grotesk; wordmark DG + letterspaced LABS.
 - Thin-line, custom SVG iconography (sacred-geometry inspired, used with restraint).
 - Smooth dark→light scroll experience, subtle fade-in reveals, full-screen mobile menu.
 - Accessible, semantic HTML; respects `prefers-reduced-motion`.

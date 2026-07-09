@@ -1,10 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
 <defs></defs>
 
-<!-- Brand mark: eclipse -->
-<symbol id="i-mark" viewBox="0 0 32 32">
-  <circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="1.4"/>
-  <path d="M16 5a11 11 0 0 0 0 22 8 8 0 0 1 0-22z" fill="currentColor" opacity="0.9"/>
+<!-- Brand mark: dg glyph — circle (physical world) + stem (digital axis). Also reads 0/1. -->
+<symbol id="i-mark" viewBox="0 0 120 120">
+  <g fill="none" stroke-linecap="round">
+    <circle cx="60" cy="60" r="27" stroke="#A56B45" stroke-width="11"/>
+    <line x1="87" y1="16" x2="87" y2="104" stroke="currentColor" stroke-width="11"/>
+  </g>
 </symbol>
 
 <!-- Trifox / FoxGrid : triangular fox -->
