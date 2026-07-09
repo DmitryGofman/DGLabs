@@ -84,6 +84,16 @@ study plan as an interactive tool:
 Progress and self-assessment are saved per-device in `localStorage`. Built in
 `assets/css/robotics.css` + `assets/js/robotics.js` on the shared design system.
 
+## Updating the site (no code needed)
+
+Open **`admin.html`** on the live site (link in the footer). It edits
+`assets/data/journal.json` and `assets/data/projects.json` in the browser and
+publishes them as commits via the GitHub API (one-time fine-grained token,
+stored only in your browser). Pages rebuilds automatically in ~1 minute.
+Projects render everywhere from `projects.json` (home grid, hero ticker,
+projects page); journal entries render from `journal.json` (journal page +
+home preview) via `assets/js/content.js`.
+
 ## Stack
 
 No build step. Vanilla HTML, CSS, and a small JavaScript file — fast on mobile,

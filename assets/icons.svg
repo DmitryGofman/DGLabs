@@ -214,6 +214,27 @@
   </g>
 </symbol>
 
+<!-- Swordfight : crossed blades -->
+<symbol id="i-sword" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M10 8 L31 29"/>
+    <path d="M38 8 L17 29"/>
+    <path d="M27 33 L33 27 M15 27 L21 33"/>
+    <path d="M12 36 L15 39 M36 36 L33 39"/>
+    <circle cx="24" cy="24" r="1.2" fill="currentColor"/>
+  </g>
+</symbol>
+
+<!-- Spacepoint : point tracked in space (IMU axes + orbit) -->
+<symbol id="i-spacepoint" viewBox="0 0 48 48">
+  <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="24" cy="24" r="3" fill="currentColor" stroke="none"/>
+    <ellipse cx="24" cy="24" rx="17" ry="7"/>
+    <ellipse cx="24" cy="24" rx="17" ry="7" transform="rotate(60 24 24)"/>
+    <ellipse cx="24" cy="24" rx="17" ry="7" transform="rotate(-60 24 24)"/>
+  </g>
+</symbol>
+
 <!-- Compass / path -->
 <symbol id="i-compass" viewBox="0 0 48 48">
   <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round">

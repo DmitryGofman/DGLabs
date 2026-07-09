@@ -1014,3 +1014,47 @@ body.menu-open { overflow: hidden; }
   margin-left: 0.55em;
   opacity: 0.92;
 }
+
+/* ----------------------------------------------------------------------- */
+/*  Hero glyph — the dg mark drawn like an instrument dial                  */
+/* ----------------------------------------------------------------------- */
+.hero-glyph {
+  width: min(84%, 460px);
+  height: auto;
+  filter: drop-shadow(0 0 44px rgba(165, 107, 69, 0.25));
+}
+.hg-rotor {
+  animation: hgspin 90s linear infinite;
+  transform-origin: 50% 50%;
+  transform-box: view-box;
+}
+@keyframes hgspin { to { transform: rotate(360deg); } }
+.hg-c {
+  stroke-dasharray: 170;
+  stroke-dashoffset: 170;
+  animation: hgdraw 1.5s 0.35s var(--ease) forwards;
+}
+.hg-s {
+  stroke-dasharray: 88;
+  stroke-dashoffset: 88;
+  animation: hgdraw 1s 1.2s var(--ease) forwards;
+}
+@keyframes hgdraw { to { stroke-dashoffset: 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .hg-rotor { animation: none; }
+  .hg-c, .hg-s { animation: none; stroke-dashoffset: 0; }
+}
+
+/* Project status chip (projects page rows) */
+.rstatus {
+  display: inline-block;
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  border: 1px solid var(--line-dark);
+  border-radius: 100px;
+  padding: 0.15em 0.8em;
+  margin-left: 0.7em;
+  vertical-align: middle;
+}
