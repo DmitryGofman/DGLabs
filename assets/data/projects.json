@@ -1,0 +1,42 @@
+[
+  {
+    "id": "trifox",
+    "name": "Trifox / FoxGrid",
+    "category": "Cognitive Training",
+    "status": "In development",
+    "icon": "i-trifox",
+    "description": "A visual memory and imagination training game based on reconstructing geometric forms from memory. Strengthens visual working memory, spatial reasoning, pattern recognition, and mental imagery."
+  },
+  {
+    "id": "avirlog",
+    "name": "Avirlog · Breath Tracker",
+    "category": "Breath Intelligence",
+    "status": "In development",
+    "icon": "i-breath",
+    "description": "The breath tracker. Avirlog — from avir, Hebrew for air — makes breathing visible, measurable, and trainable: observe your respiratory patterns and build self-regulation through breath awareness."
+  },
+  {
+    "id": "water",
+    "name": "Water Drop Meditation Device",
+    "category": "Meditation Device",
+    "status": "Concept",
+    "icon": "i-water",
+    "description": "A physical meditation mechanism using water, rhythm, sound, anticipation, and silence to draw attention into the present moment."
+  },
+  {
+    "id": "sword",
+    "name": "Swordfight",
+    "category": "Game",
+    "status": "In development",
+    "icon": "i-sword",
+    "description": "A sword-fighting game built around timing, distance, and reading your opponent — fast to pick up, hard to master."
+  },
+  {
+    "id": "spacepoint",
+    "name": "Spacepoint",
+    "category": "Spatial Interaction",
+    "status": "In development",
+    "icon": "i-spacepoint",
+    "description": "An app that turns motion into interface. Built on IMU sensing — orientation, gesture, and movement through space become touch-free input."
+  }
+]

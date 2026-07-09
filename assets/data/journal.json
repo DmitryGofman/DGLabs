@@ -1,0 +1,66 @@
+[
+  {
+    "id": "learning-hub",
+    "date": "2026-06-16",
+    "category": "code",
+    "icon": "i-terminal",
+    "title": "Building my learning hub with Claude Code",
+    "text": "Turned the site's Learn section into a hub of interactive modules — and learned more about front-end architecture doing it than from any tutorial."
+  },
+  {
+    "id": "line-follower-v1",
+    "date": "2026-06-10",
+    "category": "robotics",
+    "icon": "i-robot",
+    "title": "Line-follower v1: it drifts on tight corners",
+    "text": "The PID loop runs, but it overshoots on 90° turns. Notes on gain tuning, sensor spacing, and why the derivative term is doing more than I expected."
+  },
+  {
+    "id": "game-loop-weekend",
+    "date": "2026-05-28",
+    "category": "games",
+    "icon": "i-spark",
+    "title": "Prototyping a mobile game loop in a weekend",
+    "text": "Stripped an idea down to its core loop and shipped a rough playable. What felt fun, what felt like a chore, and the one mechanic worth keeping."
+  },
+  {
+    "id": "bracket-tolerances",
+    "date": "2026-05-15",
+    "category": "maker",
+    "icon": "i-gear",
+    "title": "Machining a custom bracket — tolerance stack-up bit me",
+    "text": "Four parts that each measured fine refused to assemble. A shop-floor reminder that tolerances add up, and how I'd design the fit differently next time."
+  },
+  {
+    "id": "ninety-days-practice",
+    "date": "2026-04-30",
+    "category": "yoga",
+    "icon": "i-embodiment",
+    "title": "Ninety days of morning practice — what changed",
+    "text": "Not flexibility, as it turns out. The real shift was in attention and how I start the day. A short reflection on consistency over intensity."
+  },
+  {
+    "id": "generative-sketches",
+    "date": "2026-04-12",
+    "category": "art",
+    "icon": "i-mandala",
+    "title": "Generative sketches: rules that make pleasing chaos",
+    "text": "A small experiment in constraint-based drawing — a handful of simple rules producing forms I couldn't have designed by hand."
+  },
+  {
+    "id": "sim-to-real-notes",
+    "date": "2026-03-20",
+    "category": "research",
+    "icon": "i-book",
+    "title": "Notes on sim-to-real for small robots",
+    "text": "Reading notes on the reality gap and domain randomisation — what actually transfers from simulation to a cheap physical platform, and what doesn't."
+  },
+  {
+    "id": "git-clicked",
+    "date": "2026-03-02",
+    "category": "code",
+    "icon": "i-foundations",
+    "title": "Version control finally clicked",
+    "text": "Branches stopped being scary the day I treated every commit as a savepoint. A short write-up of the mental model that made git make sense."
+  }
+]

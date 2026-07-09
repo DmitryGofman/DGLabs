@@ -73,11 +73,12 @@
   /* --- Journal category filter --- */
   var jfilter = document.querySelector('.jfilter');
   if (jfilter) {
-    var jposts = document.querySelectorAll('#journal-grid .article');
     var jempty = document.getElementById('jempty');
     jfilter.addEventListener('click', function (e) {
       var btn = e.target.closest('.jf-btn');
       if (!btn) return;
+      // query at click time — posts are rendered async from journal.json
+      var jposts = document.querySelectorAll('#journal-grid .article');
       jfilter.querySelectorAll('.jf-btn').forEach(function (b) { b.classList.remove('active'); });
       btn.classList.add('active');
       var f = btn.getAttribute('data-filter');
