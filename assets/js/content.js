@@ -58,6 +58,12 @@
     var rows = document.getElementById('projects-rows');
     if (rows) {
       rows.innerHTML = projects.map(function (p, i) {
+        var links = (p.links || []).map(function (l) {
+          var isRepo = /github\.com/.test(l.url);
+          var ic = isRepo ? 'i-github' : 'i-play';
+          return '<a class="plink' + (isRepo ? '' : ' app') + '" href="' + esc(l.url) + '" target="_blank" rel="noopener">' +
+            icon(ic) + esc(l.label) + '</a>';
+        }).join('');
         return '<article class="proj-row reveal in" id="' + esc(p.id) + '">' +
           icon(p.icon, 'rIcon') +
           '<div>' +
@@ -65,6 +71,7 @@
               (p.status ? ' <span class="rstatus">' + esc(p.status) + '</span>' : '') + '</div>' +
             '<h3>' + esc(p.name) + '</h3>' +
             '<p>' + esc(p.description) + '</p>' +
+            (links ? '<div class="plinks">' + links + '</div>' : '') +
           '</div>' +
           '<div class="rNo">' + String(i + 1).padStart(2, '0') + '</div>' +
         '</article>';

@@ -1058,3 +1058,19 @@ body.menu-open { overflow: hidden; }
   margin-left: 0.7em;
   vertical-align: middle;
 }
+
+/* Project link chips — the connected-apps hub */
+.plinks { display: flex; flex-wrap: wrap; gap: 0.55rem; margin-top: 0.9rem; }
+.plink {
+  display: inline-flex; align-items: center; gap: 0.45em;
+  font-size: 0.8rem; font-weight: 500; letter-spacing: 0.03em;
+  color: var(--text-dark);
+  border: 1px solid var(--line-dark); border-radius: 100px;
+  padding: 0.42em 1em;
+  background: var(--stone);
+  transition: border-color 0.3s var(--ease), color 0.3s var(--ease), background 0.3s var(--ease), transform 0.3s var(--ease);
+}
+.plink:hover { border-color: var(--gold); color: var(--bronze); background: #fff; transform: translateY(-1px); }
+.plink svg { width: 14px; height: 14px; }
+.plink.app { background: var(--gold); border-color: var(--gold); color: var(--ivory); }
+.plink.app:hover { background: var(--sand); color: var(--ivory); }

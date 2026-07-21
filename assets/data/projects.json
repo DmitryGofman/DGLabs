@@ -5,7 +5,17 @@
     "category": "Cognitive Training",
     "status": "In development",
     "icon": "i-trifox",
-    "description": "A visual memory and imagination training game based on reconstructing geometric forms from memory. Strengthens visual working memory, spatial reasoning, pattern recognition, and mental imagery."
+    "description": "A visual memory and imagination training game based on reconstructing geometric forms from memory. Strengthens visual working memory, spatial reasoning, pattern recognition, and mental imagery.",
+    "links": [
+      {
+        "label": "Open app",
+        "url": "https://dmitrygofman.github.io/Trifox/"
+      },
+      {
+        "label": "Repo",
+        "url": "https://github.com/DmitryGofman/Trifox"
+      }
+    ]
   },
   {
     "id": "avirlog",
@@ -13,7 +23,17 @@
     "category": "Breath Intelligence",
     "status": "In development",
     "icon": "i-breath",
-    "description": "The breath tracker. Avirlog — from avir, Hebrew for air — makes breathing visible, measurable, and trainable: observe your respiratory patterns and build self-regulation through breath awareness."
+    "description": "The breath tracker. Avirlog — from avir, Hebrew for air — makes breathing visible, measurable, and trainable: observe your respiratory patterns and build self-regulation through breath awareness.",
+    "links": [
+      {
+        "label": "Open app",
+        "url": "https://dmitrygofman.github.io/Avirlog/"
+      },
+      {
+        "label": "Repo",
+        "url": "https://github.com/DmitryGofman/Avirlog"
+      }
+    ]
   },
   {
     "id": "water",
@@ -21,7 +41,8 @@
     "category": "Meditation Device",
     "status": "Concept",
     "icon": "i-water",
-    "description": "A physical meditation mechanism using water, rhythm, sound, anticipation, and silence to draw attention into the present moment."
+    "description": "A physical meditation mechanism using water, rhythm, sound, anticipation, and silence to draw attention into the present moment.",
+    "links": []
   },
   {
     "id": "sword",
@@ -29,7 +50,17 @@
     "category": "Game",
     "status": "In development",
     "icon": "i-sword",
-    "description": "A sword-fighting game built around timing, distance, and reading your opponent — fast to pick up, hard to master."
+    "description": "A sword-fighting game built around timing, distance, and reading your opponent — fast to pick up, hard to master.",
+    "links": [
+      {
+        "label": "Open app",
+        "url": "https://dmitrygofman.github.io/iSword/"
+      },
+      {
+        "label": "Repo",
+        "url": "https://github.com/DmitryGofman/iSword"
+      }
+    ]
   },
   {
     "id": "spacepoint",
@@ -37,6 +68,16 @@
     "category": "Spatial Interaction",
     "status": "In development",
     "icon": "i-spacepoint",
-    "description": "An app that turns motion into interface. Built on IMU sensing — orientation, gesture, and movement through space become touch-free input."
+    "description": "An app that turns motion into interface. Built on IMU sensing — orientation, gesture, and movement through space become touch-free input.",
+    "links": [
+      {
+        "label": "Prototype (Ipoint)",
+        "url": "https://dmitrygofman.github.io/Ipoint/"
+      },
+      {
+        "label": "Repo",
+        "url": "https://github.com/DmitryGofman/spacepoint"
+      }
+    ]
   }
 ]
