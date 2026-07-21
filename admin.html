@@ -120,6 +120,9 @@ code { background:#fff; border:1px solid var(--line); border-radius:6px; padding
     </div>
     <label>Description (1–2 sentences)</label>
     <textarea id="p-desc"></textarea>
+    <label>Links — one per line: <code>Label | https://url</code></label>
+    <textarea id="p-links" style="min-height:64px" placeholder="Open app | https://dmitrygofman.github.io/MyApp/
+Repo | https://github.com/DmitryGofman/MyApp"></textarea>
     <div class="grid2">
       <div><label>Icon</label>
         <select id="p-icon">
@@ -226,7 +229,7 @@ code { background:#fff; border:1px solid var(--line); border-radius:6px; padding
     } else {
       $('p-list').innerHTML = state.projects.length ? state.projects.map(function (p) {
         return '<div class="item"><div class="grow"><div class="meta">'+esc(p.category)+' <span class="badge">'+esc(p.status||'')+'</span></div>' +
-          '<div class="title">'+esc(p.name)+'</div></div>' +
+          '<div class="title">'+esc(p.name)+' <span class="badge">'+((p.links||[]).length)+' links</span></div></div>' +
           '<button class="small" data-pedit="'+esc(p.id)+'">Edit</button>' +
           '<button class="small danger" data-pdel="'+esc(p.id)+'">Delete</button></div>';
       }).join('') : 'No projects yet.';
@@ -270,15 +273,22 @@ code { background:#fff; border:1px solid var(--line); border-radius:6px; padding
 
   /* -------------------------- projects form ----------------------------- */
   function pReset() {
-    $('p-edit-id').value=''; $('p-name').value=''; $('p-cat').value=''; $('p-desc').value=''; $('p-id').value='';
+    $('p-edit-id').value=''; $('p-name').value=''; $('p-cat').value=''; $('p-desc').value=''; $('p-id').value=''; $('p-links').value='';
     $('p-form-title').textContent='Add a project'; $('p-save').textContent='Add project'; $('p-cancel').hidden=true;
   }
   $('p-save').addEventListener('click', function () {
     var name=$('p-name').value.trim(), cat=$('p-cat').value.trim(), desc=$('p-desc').value.trim();
     if (!name || !cat || !desc) return toast('Fill in name, category, and description');
     var editing=$('p-edit-id').value;
+    var links=$('p-links').value.split('\n').map(function(line){
+      var parts=line.split('|');
+      if (parts.length<2) return null;
+      var url=parts.slice(1).join('|').trim();
+      if (!/^https?:\/\//.test(url)) return null;
+      return { label: parts[0].trim() || 'Link', url: url };
+    }).filter(Boolean);
     var proj={ id: ($('p-id').value.trim() || (editing || slug(name))), name:name, category:cat,
-               status:$('p-status').value, icon:$('p-icon').value, description:desc };
+               status:$('p-status').value, icon:$('p-icon').value, description:desc, links:links };
     if (editing) {
       var i=state.projects.findIndex(function(x){return x.id===editing;});
       if (i>-1) state.projects[i]=proj; else state.projects.push(proj);
@@ -293,6 +303,7 @@ code { background:#fff; border:1px solid var(--line); border-radius:6px; padding
       var p=state.projects.find(function(x){return x.id===t.dataset.pedit;}); if(!p) return;
       $('p-edit-id').value=p.id; $('p-name').value=p.name; $('p-cat').value=p.category;
       $('p-desc').value=p.description; $('p-id').value=p.id; $('p-status').value=p.status||'In development';
+      $('p-links').value=(p.links||[]).map(function(l){return l.label+' | '+l.url;}).join('\n');
       $('p-icon').value=p.icon||'i-spark';
       $('p-form-title').textContent='Edit project'; $('p-save').textContent='Save changes'; $('p-cancel').hidden=false;
       $('p-form-title').scrollIntoView({behavior:'smooth'});
