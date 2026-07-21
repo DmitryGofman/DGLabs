@@ -92,6 +92,11 @@
     });
   }
 
+  /* --- PWA: register service worker (network-first, offline fallback) --- */
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').catch(function () {});
+  }
+
   /* --- Footer year --- */
   var yr = document.getElementById('year');
   if (yr) yr.textContent = new Date().getFullYear();
