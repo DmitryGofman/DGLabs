@@ -64,19 +64,125 @@
   },
   {
     "id": "spacepoint",
-    "name": "Spacepoint",
-    "category": "Spatial Interaction",
+    "name": "Spacepoint · Ipoint",
+    "category": "IMU Control",
     "status": "In development",
     "icon": "i-spacepoint",
-    "description": "An app that turns motion into interface. Built on IMU sensing — orientation, gesture, and movement through space become touch-free input.",
+    "description": "Two prototypes that turn IMU motion into interface: Spacepoint — a 3D pyramid/sphere motion demo — and Ipoint, a ZUPT point-controller. Orientation, gesture, and movement in space become touch-free input.",
     "links": [
       {
-        "label": "Prototype (Ipoint)",
+        "label": "Spacepoint · 3D demo",
+        "url": "https://raw.githack.com/DmitryGofman/spacepoint/claude/3d-pyramid-sphere-imu-glnct6/docs/index.html"
+      },
+      {
+        "label": "Ipoint · controller",
         "url": "https://dmitrygofman.github.io/Ipoint/"
       },
       {
-        "label": "Repo",
+        "label": "Spacepoint repo",
         "url": "https://github.com/DmitryGofman/spacepoint"
+      },
+      {
+        "label": "Ipoint repo",
+        "url": "https://github.com/DmitryGofman/Ipoint"
+      }
+    ]
+  },
+  {
+    "id": "mission-control",
+    "name": "Mission Control",
+    "category": "Project Management",
+    "status": "In development",
+    "icon": "i-compass",
+    "description": "A mission-control board for managing projects and tasks — plan, track, and steer everything from one place. Hebrew UI.",
+    "links": [
+      {
+        "label": "Open app",
+        "url": "https://dmitrygofman.github.io/mission-control/"
+      },
+      {
+        "label": "Repo",
+        "url": "https://github.com/DmitryGofman/mission-control"
+      }
+    ]
+  },
+  {
+    "id": "mechalc",
+    "name": "MechCalc",
+    "category": "Engineering Tools",
+    "status": "In development",
+    "icon": "i-gear",
+    "description": "Engineering calculators for mechanical design — quick, precise, field-ready. Paired with MechCalc Academy, an interactive combat-engineering study companion.",
+    "links": [
+      {
+        "label": "Calculator",
+        "url": "https://dmitrygofman.github.io/mechalc/"
+      },
+      {
+        "label": "Academy",
+        "url": "https://dmitrygofman.github.io/Mtoolkit/"
+      },
+      {
+        "label": "MechCalc repo",
+        "url": "https://github.com/DmitryGofman/mechalc"
+      },
+      {
+        "label": "Academy repo",
+        "url": "https://github.com/DmitryGofman/Mtoolkit"
+      }
+    ]
+  },
+  {
+    "id": "image-detect",
+    "name": "Image Detect Guide",
+    "category": "Computer Vision",
+    "status": "In development",
+    "icon": "i-awareness",
+    "description": "An interactive drone-identification academy — a self-paced visual guide to image detection and recognition. Hebrew.",
+    "links": [
+      {
+        "label": "Open guide",
+        "url": "https://dmitrygofman.github.io/image_detect/"
+      },
+      {
+        "label": "Repo",
+        "url": "https://github.com/DmitryGofman/image_detect"
+      }
+    ]
+  },
+  {
+    "id": "justaum",
+    "name": "Justaum · Aum Studio",
+    "category": "Meditation",
+    "status": "In development",
+    "icon": "i-silence",
+    "description": "A minimal sound-and-meditation studio built around the Aum tone — drone, rhythm, and stillness for daily practice.",
+    "links": [
+      {
+        "label": "Open app",
+        "url": "https://dmitrygofman.github.io/justaum/"
+      },
+      {
+        "label": "Repo",
+        "url": "https://github.com/DmitryGofman/justaum"
+      }
+    ]
+  },
+  {
+    "id": "traderbro",
+    "name": "Trader Bro",
+    "category": "Trading Tools",
+    "status": "In development",
+    "icon": "i-avirlog",
+    "description": "Tools for trading — a companion that keeps the process disciplined: setups, checklists, and decision support instead of impulse.",
+    "links": [
+      {
+        "label": "Open app",
+        "url": "https://raw.githack.com/DmitryGofman/traderbro/main/index.html"
+      },
+      {
+        "label": "Repo",
+        "url": "https://github.com/DmitryGofman/traderbro"
       }
     ]
   }
