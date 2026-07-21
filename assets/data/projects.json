@@ -47,10 +47,10 @@
   {
     "id": "sword",
     "name": "Swordfight",
-    "category": "Game",
+    "category": "Game · IMU Control",
     "status": "In development",
     "icon": "i-sword",
-    "description": "A sword-fighting game built around timing, distance, and reading your opponent — fast to pick up, hard to master.",
+    "description": "An exploration of IMU-controlled play: your mobile device becomes the blade. A motion-controlled sword-fighting game built on timing, distance, and reading your opponent.",
     "links": [
       {
         "label": "Open app",
@@ -153,10 +153,10 @@
   {
     "id": "justaum",
     "name": "Justaum · Aum Studio",
-    "category": "Meditation",
+    "category": "Inspiration · AI",
     "status": "In development",
     "icon": "i-silence",
-    "description": "A minimal sound-and-meditation studio built around the Aum tone — drone, rhythm, and stillness for daily practice.",
+    "description": "Aum Studio — a quote-to-image integrator. It weaves poetry, inspiration, and art into a single canvas, using AI to turn words that move you into images worth sitting with. Connection over content.",
     "links": [
       {
         "label": "Open app",
