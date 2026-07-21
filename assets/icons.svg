@@ -243,4 +243,161 @@
     <circle cx="24" cy="24" r="1.6" fill="currentColor"/>
   </g>
 </symbol>
+
+<!-- Sacred geometry: Seed of Life (exact construction) -->
+<symbol id="i-seed" viewBox="0 0 200 200">
+  <circle cx="100.000" cy="100.000" r="90.000" fill="none" stroke="currentColor" stroke-width="2.0" opacity="1.0"/>
+  <circle cx="100.000" cy="100.000" r="64.000" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.55"/>
+  <circle cx="100.000" cy="100.000" r="30.000" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.75"/>
+  <circle cx="100.000" cy="70.000" r="30.000" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.75"/>
+  <circle cx="74.019" cy="85.000" r="30.000" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.75"/>
+  <circle cx="74.019" cy="115.000" r="30.000" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.75"/>
+  <circle cx="100.000" cy="130.000" r="30.000" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.75"/>
+  <circle cx="125.981" cy="115.000" r="30.000" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.75"/>
+  <circle cx="125.981" cy="85.000" r="30.000" fill="none" stroke="currentColor" stroke-width="1.6" opacity="0.75"/>
+  <circle cx="100.000" cy="100.000" r="60.000" fill="none" stroke="currentColor" stroke-width="1.0" opacity="0.5"/>
+  <circle cx="100" cy="100" r="5" fill="currentColor"/>
+</symbol>
+
+<!-- Sacred geometry: Flower of Life -->
+<symbol id="i-flower" viewBox="0 0 200 200">
+  <circle cx="100.000" cy="100.000" r="92.000" fill="none" stroke="currentColor" stroke-width="2.0" opacity="1.0"/>
+  <circle cx="100.000" cy="100.000" r="81.000" fill="none" stroke="currentColor" stroke-width="1.0" opacity="0.5"/>
+  <circle cx="54.967" cy="74.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.42"/>
+  <circle cx="54.967" cy="100.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.42"/>
+  <circle cx="54.967" cy="126.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.42"/>
+  <circle cx="77.483" cy="61.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.42"/>
+  <circle cx="77.483" cy="87.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.6"/>
+  <circle cx="77.483" cy="113.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.6"/>
+  <circle cx="77.483" cy="139.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.42"/>
+  <circle cx="100.000" cy="48.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.42"/>
+  <circle cx="100.000" cy="74.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.6"/>
+  <circle cx="100.000" cy="100.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.75"/>
+  <circle cx="100.000" cy="126.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.6"/>
+  <circle cx="100.000" cy="152.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.42"/>
+  <circle cx="122.517" cy="61.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.42"/>
+  <circle cx="122.517" cy="87.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.6"/>
+  <circle cx="122.517" cy="113.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.6"/>
+  <circle cx="122.517" cy="139.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.42"/>
+  <circle cx="145.033" cy="74.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.42"/>
+  <circle cx="145.033" cy="100.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.42"/>
+  <circle cx="145.033" cy="126.000" r="26.000" fill="none" stroke="currentColor" stroke-width="1.3" opacity="0.42"/>
+  <circle cx="100" cy="100" r="4.5" fill="currentColor"/>
+</symbol>
+
+<!-- Sacred geometry: Metatron's Cube -->
+<symbol id="i-metatron" viewBox="0 0 200 200">
+  <circle cx="100.000" cy="100.000" r="90.000" fill="none" stroke="currentColor" stroke-width="2.0" opacity="1.0"/>
+  <line x1="100.000" y1="100.000" x2="100.000" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="100.000" x2="100.000" y2="44.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="100.000" x2="75.751" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="100.000" x2="51.503" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="100.000" x2="75.751" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="100.000" x2="51.503" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="100.000" x2="100.000" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="100.000" x2="100.000" y2="156.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="100.000" x2="124.249" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="100.000" x2="148.497" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="100.000" x2="124.249" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="100.000" x2="148.497" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="72.000" x2="100.000" y2="44.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="72.000" x2="75.751" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="72.000" x2="51.503" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="72.000" x2="75.751" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="72.000" x2="51.503" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="72.000" x2="100.000" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="72.000" x2="100.000" y2="156.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="72.000" x2="124.249" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="72.000" x2="148.497" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="72.000" x2="124.249" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="72.000" x2="148.497" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="44.000" x2="75.751" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="44.000" x2="51.503" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="44.000" x2="75.751" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="44.000" x2="51.503" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="44.000" x2="100.000" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="44.000" x2="100.000" y2="156.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="44.000" x2="124.249" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="44.000" x2="148.497" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="44.000" x2="124.249" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="44.000" x2="148.497" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="86.000" x2="51.503" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="86.000" x2="75.751" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="86.000" x2="51.503" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="86.000" x2="100.000" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="86.000" x2="100.000" y2="156.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="86.000" x2="124.249" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="86.000" x2="148.497" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="86.000" x2="124.249" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="86.000" x2="148.497" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="72.000" x2="75.751" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="72.000" x2="51.503" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="72.000" x2="100.000" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="72.000" x2="100.000" y2="156.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="72.000" x2="124.249" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="72.000" x2="148.497" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="72.000" x2="124.249" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="72.000" x2="148.497" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="114.000" x2="51.503" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="114.000" x2="100.000" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="114.000" x2="100.000" y2="156.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="114.000" x2="124.249" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="114.000" x2="148.497" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="114.000" x2="124.249" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="75.751" y1="114.000" x2="148.497" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="128.000" x2="100.000" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="128.000" x2="100.000" y2="156.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="128.000" x2="124.249" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="128.000" x2="148.497" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="128.000" x2="124.249" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="51.503" y1="128.000" x2="148.497" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="128.000" x2="100.000" y2="156.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="128.000" x2="124.249" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="128.000" x2="148.497" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="128.000" x2="124.249" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="128.000" x2="148.497" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="156.000" x2="124.249" y2="114.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="156.000" x2="148.497" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="156.000" x2="124.249" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="100.000" y1="156.000" x2="148.497" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="124.249" y1="114.000" x2="148.497" y2="128.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="124.249" y1="114.000" x2="124.249" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="124.249" y1="114.000" x2="148.497" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="148.497" y1="128.000" x2="124.249" y2="86.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="148.497" y1="128.000" x2="148.497" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <line x1="124.249" y1="86.000" x2="148.497" y2="72.000" stroke="currentColor" stroke-width="0.7" opacity="0.4"/>
+  <circle cx="100.000" cy="100.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.8"/>
+  <circle cx="100.000" cy="72.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="100.000" cy="44.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="75.751" cy="86.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="51.503" cy="72.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="75.751" cy="114.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="51.503" cy="128.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="100.000" cy="128.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="100.000" cy="156.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="124.249" cy="114.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="148.497" cy="128.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="124.249" cy="86.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="148.497" cy="72.000" r="14.000" fill="none" stroke="currentColor" stroke-width="1.4" opacity="0.65"/>
+  <circle cx="100" cy="100" r="4" fill="currentColor"/>
+</symbol>
+
+<!-- Sacred geometry: Torus (12-fold) -->
+<symbol id="i-torus" viewBox="0 0 200 200">
+  <circle cx="100.000" cy="100.000" r="92.000" fill="none" stroke="currentColor" stroke-width="2.0" opacity="1.0"/>
+  <circle cx="100.000" cy="100.000" r="88.000" fill="none" stroke="currentColor" stroke-width="1.0" opacity="0.45"/>
+  <circle cx="100.000" cy="56.000" r="44.000" fill="none" stroke="currentColor" stroke-width="1.1" opacity="0.5"/>
+  <circle cx="78.000" cy="61.895" r="44.000" fill="none" stroke="currentColor" stroke-width="1.1" opacity="0.5"/>
+  <circle cx="61.895" cy="78.000" r="44.000" fill="none" stroke="currentColor" stroke-width="1.1" opacity="0.5"/>
+  <circle cx="56.000" cy="100.000" r="44.000" fill="none" stroke="currentColor" stroke-width="1.1" opacity="0.5"/>
+  <circle cx="61.895" cy="122.000" r="44.000" fill="none" stroke="currentColor" stroke-width="1.1" opacity="0.5"/>
+  <circle cx="78.000" cy="138.105" r="44.000" fill="none" stroke="currentColor" stroke-width="1.1" opacity="0.5"/>
+  <circle cx="100.000" cy="144.000" r="44.000" fill="none" stroke="currentColor" stroke-width="1.1" opacity="0.5"/>
+  <circle cx="122.000" cy="138.105" r="44.000" fill="none" stroke="currentColor" stroke-width="1.1" opacity="0.5"/>
+  <circle cx="138.105" cy="122.000" r="44.000" fill="none" stroke="currentColor" stroke-width="1.1" opacity="0.5"/>
+  <circle cx="144.000" cy="100.000" r="44.000" fill="none" stroke="currentColor" stroke-width="1.1" opacity="0.5"/>
+  <circle cx="138.105" cy="78.000" r="44.000" fill="none" stroke="currentColor" stroke-width="1.1" opacity="0.5"/>
+  <circle cx="122.000" cy="61.895" r="44.000" fill="none" stroke="currentColor" stroke-width="1.1" opacity="0.5"/>
+  <circle cx="100" cy="100" r="5" fill="currentColor"/>
+</symbol>
 </svg>
