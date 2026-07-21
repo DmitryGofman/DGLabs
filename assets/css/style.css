@@ -1074,3 +1074,20 @@ body.menu-open { overflow: hidden; }
 .plink svg { width: 14px; height: 14px; }
 .plink.app { background: var(--gold); border-color: var(--gold); color: var(--ivory); }
 .plink.app:hover { background: var(--sand); color: var(--ivory); }
+
+/* Sacred-geometry hero ornaments (Vision: Metatron · About: Torus · Journal: Flower) */
+.hero-orn {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: -6%;
+  width: clamp(280px, 42vw, 560px);
+  height: auto;
+  transform: translateY(-46%);
+  color: var(--gold);
+  opacity: 0.16;
+  pointer-events: none;
+}
+@media (max-width: 767px) {
+  .hero-orn { opacity: 0.1; right: -34%; }
+}
